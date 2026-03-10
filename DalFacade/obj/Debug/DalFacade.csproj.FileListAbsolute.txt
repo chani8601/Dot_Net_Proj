@@ -1,0 +1,55 @@
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\bin\DalFacade.deps.json
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\bin\DalFacade.dll
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\bin\DalFacade.pdb
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.dll
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\DalFacade.pdb
+M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\bin\DalFacade.deps.json
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\bin\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\bin\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\c#.netהפרויקט ב\DalFacade\obj\Debug\ref\DalFacade.dll
+T:\יד\בינה\C# .NET\ציפי וחני\bin\DalFacade.deps.json
+T:\יד\בינה\C# .NET\ציפי וחני\bin\DalFacade.dll
+T:\יד\בינה\C# .NET\ציפי וחני\bin\DalFacade.pdb
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.dll
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\refint\DalFacade.dll
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\DalFacade.pdb
+T:\יד\בינה\C# .NET\ציפי וחני\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\c#.NET\הפרוייקט\bin\DalFacade.deps.json
+M:\c#.NET\הפרוייקט\bin\DalFacade.dll
+M:\c#.NET\הפרוייקט\bin\DalFacade.pdb
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.dll
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\DalFacade.pdb
+M:\c#.NET\הפרוייקט\DalFacade\obj\Debug\ref\DalFacade.dll
+D:\הפרוייקט\bin\DalFacade.deps.json
+D:\הפרוייקט\bin\DalFacade.dll
+D:\הפרוייקט\bin\DalFacade.pdb
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.dll
+D:\הפרוייקט\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.pdb
+D:\הפרוייקט\DalFacade\obj\Debug\ref\DalFacade.dll
