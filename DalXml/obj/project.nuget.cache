@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "tRhvC9+yGXc=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DalFacade is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project DalFacade supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "DalFacade",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
