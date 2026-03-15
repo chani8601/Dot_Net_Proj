@@ -53,3 +53,15 @@ D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.dll
 D:\הפרוייקט\DalFacade\obj\Debug\refint\DalFacade.dll
 D:\הפרוייקט\DalFacade\obj\Debug\DalFacade.pdb
 D:\הפרוייקט\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\bin\DalFacade.deps.json
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\bin\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\bin\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalFacade\obj\Debug\ref\DalFacade.dll
