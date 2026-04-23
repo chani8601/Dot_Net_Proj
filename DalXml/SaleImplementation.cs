@@ -30,11 +30,11 @@ namespace Dal
         private int Create(Sale prod)
         {
             List<Sale> sales = Load();
-            if (sales.Any(p => p.id == prod.id))
-                throw new DalAlreadyExistsException(prod.name, prod.id);
+            if (sales.Any(p => p.Id == prod.Id))
+                throw new DalAlreadyExistsException("prod already exist", prod.Id);
             sales.Add(prod);
             saveList(sales);
-            return prod.id;
+            return prod.Id;
         }
         private void Delete(int id)
         {
@@ -48,16 +48,16 @@ namespace Dal
         private void Update(Sale sal)
         {
             List<Sale> sales = Load();
-            var salesToUpdate = sales.FindIndex(s => s.id == sal.id);
+            var salesToUpdate = sales.FindIndex(s => s.Id == sal.Id);
             if (salesToUpdate == -1)
-                throw new DalNotFoundException(sal.name, sal.id);
+                throw new DalNotFoundException(sal.name, sal.Id);
             sales[salesToUpdate] = sal;
             saveList(sales);
         }
         private Sale Read(int id)
         {
             List<Sale> sales = Load();
-            var salesToUpdate = sales.FirstOrDefault(s => s.id == id);
+            var salesToUpdate = sales.FirstOrDefault(s => s.Id == id);
             if (salesToUpdate == null)
                 throw new DalNotFoundException("Sale", id);
             return salesToUpdate;
@@ -76,7 +76,7 @@ namespace Dal
 
             var sales =
                 from c in root.Elements("Sale")
-                select new sale
+                select new Sale
                 {
                     Id = (int)s.Element("Id"),
                     Name = (string)s.Element("Name"),

@@ -30,11 +30,11 @@ namespace Dal
         private int Create(Product prod)
         {
             List<Product> products = Load();
-            if (products.Any(p => p.id == prod.id))
-                throw new DalAlreadyExistsException(prod.name, prod.id);
+            if (products.Any(p => p.Id == prod.Id))
+                throw new DalAlreadyExistsException(prod.NameP, prod.Id);
             products.Add(prod);
             saveList(products);
-            return prod.id;
+            return prod.Id;
         }
         private void Delete(int id)
         {
@@ -48,9 +48,9 @@ namespace Dal
         private void Update(Product prod)
         {
             List<Product> products = Load();
-            var productsToUpdate = products.FindIndex(p => p.id == prod.id);
+            var productsToUpdate = products.FindIndex(p => p.Id == prod.Id);
             if (productsToUpdate == -1)
-                throw new DalNotFoundException(prod.name, prod.id);
+                throw new DalNotFoundException(prod.NameP, prod.Id);
             products[productsToUpdate] = prod;
             saveList(products);
         }
@@ -67,7 +67,7 @@ namespace Dal
             List<Product> products = LoadList();
             var prod = products.FirstOrDefault(filter);
             if (prod == null)
-                throw new DalIdNotFoundException("Product","id not found");
+                throw new DalNotFoundException("Product id not found",prod.Id );
             return prod;
         }
         public List<Product> ReadAll()
@@ -76,11 +76,11 @@ namespace Dal
 
             var products =
                 from c in root.Elements("Product")
-                select new product
+                select new Product
                 {
                     Id = (int)p.Element("Id"),
-                    Name = (string)p.Element("Name"),
-                    Phone = (string?)p.Element("Phone")
+                    NameP = (string)p.Element("Name"),
+                    //Phone = (string?)p.Element("Phone")
                 };
 
             return products.ToList();
