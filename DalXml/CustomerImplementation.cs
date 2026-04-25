@@ -1,7 +1,6 @@
 ﻿using DalApi;
 using DO;
-using System.Xml.Serialization;
-using static Dal.DalExceptions;
+using System.Xml.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,79 +10,73 @@ namespace Dal
 {
     internal class CustomerImplementation:ICustomer
     {
-        const string CUSTOMERS_FILE_PATH = "../xml/customers.xml";
-        public List<Customer> Load()
-        {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
-            if(!File.Exists(CUSTOMERS_FILE_PATH))
-                return new List<Customer> ();
+        private static readonly string CUSTOMERS_FILE_PATH = "../xml/customers.xml";
 
-            using StreamReader sr = new StreamReader(CUSTOMERS_FILE_PATH);
-            return serializer.Deserialize(sr) as List<Customer> ?? new List<Customer>();
-        }
-        public void saveList(List<Customer>customer)
-        {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
-            using StreamWriter sw=new StreamWriter(CUSTOMERS_FILE_PATH);
-            serializer.Serialize(sw,customer);
-        }
+        private XElement LoadXml() =>
+            File.Exists(CUSTOMERS_FILE_PATH) ? XElement.Load(CUSTOMERS_FILE_PATH) : new XElement("ArrayOfCustomer");
+
+        private void SaveXml(XElement root) => root.Save(CUSTOMERS_FILE_PATH);
+
+        private static Customer ToCustomer(XElement c) => new Customer(
+            (int)c.Element("Id")!,
+            (string?)c.Element("Name"),
+            (string?)c.Element("Address"),
+            (string)c.Element("Phone")! ?? ""
+        );
+
+        private static XElement ToXElement(Customer cust) => new XElement("Customer",
+            new XElement("Id", cust.Id),
+            cust.Name != null ? new XElement("Name", cust.Name) : null!,
+            cust.Address != null ? new XElement("Address", cust.Address) : null!,
+            new XElement("Phone", cust.Phone)
+        );
         public int Create(Customer cust)
         {
-            List<Customer> customers = Load();
-            if(customers.Any(c=>c.Id== cust.Id))
-                throw new DalAlreadyExistsException(cust.Name,cust.Id);
-            customers.Add(cust);
-            saveList(customers);
+            XElement root = LoadXml();
+            if (root.Elements("Customer").Any(c => (int)c.Element("Id")! == cust.Id))
+                throw new DalAlreadyExistsException(cust.Name ?? "Customer", cust.Id);
+            root.Add(ToXElement(cust));
+            SaveXml(root);
             return cust.Id;
         }
         public void Delete(int id)
         {
-            List<Customer> customers = Load();
-            var customerToDelete = customers.SingleOrDefault(c => c.Id == id);
-            if (customerToDelete==null)
+            XElement root = LoadXml();
+            var customerToDelete = root.Elements("Customer").SingleOrDefault(c => (int)c.Element("Id")! == id);
+            if (customerToDelete == null)
                 throw new DalNotFoundException("customer", id);
-            customers.Remove(cus);
-            saveList(customers);
+            customerToDelete.Remove();
+            SaveXml(root);
         }
         public void Update(Customer cust)
         {
-            List<Customer>customer=Load();
-            var customerToUpdate = customer.FindIndex(c => c.Id== cust.Id);
-            if(customerToUpdate==-1)
-                throw new DalNotFoundException(cust.Name, cust.Id);
-            customer[customerToUpdate] = cust;  
-            saveList(customer);
-        }
-        public Customer Read(int id)
-        {
-            List<Customer> customer = Load();
-            var customerToUpdate = customer.FirstOrDefault(c => c.Id == id);
+            XElement root = LoadXml();
+            var customerToUpdate = root.Elements("Customer").SingleOrDefault(c => (int)c.Element("Id")! == cust.Id);
             if (customerToUpdate == null)
+                throw new DalNotFoundException(cust.Name ?? "Customer", cust.Id);
+            customerToUpdate.ReplaceWith(ToXElement(cust));
+            SaveXml(root);
+        }
+        public Customer? Read(int id)
+        {
+            XElement root = LoadXml();
+            var c = root.Elements("Customer").SingleOrDefault(c => (int)c.Element("Id")! == id);
+            if (c == null)
                 throw new DalNotFoundException("customer", id);
-            return customerToUpdate;
+            return ToCustomer(c);
         }
         public Customer? Read(Func<Customer, bool> filter)
         {
-            List<Customer> customersList = LoadList();
-            var customer = customersList.FirstOrDefault(filter);
+            var customer = ReadAll().Cast<Customer>().FirstOrDefault(filter);
             if (customer == null)
-                throw new DalNotFoundException("No customer found matching the filter",customer.Id);
+                throw new DalNotFoundException("No customer found matching the filter", 0);
             return customer;
         }
-        public List<Customer> ReadAll()
+        public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
         {
-            XEle root = XElement.Load("../xml/customers.xml");
-
-            var customers =
-                from c in root.Elements("Customer")
-                select new Customer
-                {
-                    Id = (int)c.Element("Id"),
-                    Name = (string)c.Element("Name"),
-                    Phone = (string?)c.Element("Phone")
-                };
-
-            return customers.ToList();
+            XElement root = LoadXml();
+            var customers = root.Elements("Customer").Select(ToCustomer);
+            return (filter == null ? customers : customers.Where(filter)).Cast<Customer?>().ToList();
         }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -66,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\DalList.csproj": {
+    "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -114,8 +113,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -142,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,14 +173,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalList\\DalList.csproj"
+              "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalList\\DalList.csproj"
               },
-              "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj"
+              "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -196,8 +194,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -218,24 +215,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalXml\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -251,8 +248,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -266,8 +263,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -288,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

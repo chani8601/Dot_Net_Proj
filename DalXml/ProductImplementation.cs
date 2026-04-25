@@ -1,7 +1,6 @@
 ﻿using DalApi;
 using DO;
 using System.Xml.Serialization;
-using static Dal.DalExceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,14 +11,34 @@ namespace Dal
     internal class ProductImplementation : IProduct
     {
         const string PRODUCTS_FILE_PATH = "../xml/products.xml";
+        //private List<Product> Load()
+        //{
+        //    XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+        //    if (!File.Exists(PRODUCTS_FILE_PATH))
+        //        return new List<Product>();
+
+        //    using StreamReader sr = new StreamReader(PRODUCTS_FILE_PATH);
+        //    return serializer.Deserialize(sr) as List<Product> ?? new List<Product>();
+        //}
+
         private List<Product> Load()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
             if (!File.Exists(PRODUCTS_FILE_PATH))
                 return new List<Product>();
 
-            using StreamReader sr = new StreamReader(PRODUCTS_FILE_PATH);
-            return serializer.Deserialize(sr) as List<Product> ?? new List<Product>();
+            if (new FileInfo(PRODUCTS_FILE_PATH).Length == 0)
+                return new List<Product>();
+
+            try
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+                using StreamReader sr = new StreamReader(PRODUCTS_FILE_PATH);
+                return serializer.Deserialize(sr) as List<Product> ?? new List<Product>();
+            }
+            catch
+            {
+                return new List<Product>(); // ⭐ קריטי
+            }
         }
         private void saveList(List<Product> prod)
         {
@@ -27,63 +46,66 @@ namespace Dal
             using StreamWriter sw = new StreamWriter(PRODUCTS_FILE_PATH);
             serializer.Serialize(sw, prod);
         }
-        private int Create(Product prod)
+
+        public int Create(Product prod)
         {
             List<Product> products = Load();
+
+            prod = prod with { Id = Config.ProductNum }; // ⭐ חשוב
+
             if (products.Any(p => p.Id == prod.Id))
-                throw new DalAlreadyExistsException(prod.NameP, prod.Id);
+                throw new DalAlreadyExistsException(prod.NameP ?? "Product", prod.Id);
             products.Add(prod);
             saveList(products);
             return prod.Id;
         }
-        private void Delete(int id)
+
+        public void Delete(int id)
         {
             List<Product> products = Load();
             var productsToDelete = products.SingleOrDefault(p => p.Id == id);
             if (productsToDelete == null)
                 throw new DalNotFoundException("Product", id);
-            products.Remove(cust);
+            products.Remove(productsToDelete);
             saveList(products);
         }
-        private void Update(Product prod)
+
+        public void Update(Product prod)
         {
             List<Product> products = Load();
             var productsToUpdate = products.FindIndex(p => p.Id == prod.Id);
             if (productsToUpdate == -1)
-                throw new DalNotFoundException(prod.NameP, prod.Id);
+                throw new DalNotFoundException(prod.NameP ?? "Product", prod.Id);
             products[productsToUpdate] = prod;
             saveList(products);
         }
-        private Product Read(int id)
+
+        public Product? Read(int id)
         {
             List<Product> products = Load();
-            var productsToUpdate = products.FirstOrDefault(p => p.id == id);
+            var productsToUpdate = products.FirstOrDefault(p => p.Id == id);
             if (productsToUpdate == null)
                 throw new DalNotFoundException("Product", id);
             return productsToUpdate;
         }
         public Product? Read(Func<Product, bool> filter)
         {
-            List<Product> products = LoadList();
+            List<Product> products = Load();
             var prod = products.FirstOrDefault(filter);
             if (prod == null)
-                throw new DalNotFoundException("Product id not found",prod.Id );
+                throw new DalNotFoundException("Product id not found", 0);
             return prod;
         }
-        public List<Product> ReadAll()
+        public List<Product?> ReadAll(Func<Product, bool>? filter = null)
         {
-            XElement root = XElement.Load("../xml/products.xml");
+            List<Product> products = Load();
 
-            var products =
-                from c in root.Elements("Product")
-                select new Product
-                {
-                    Id = (int)p.Element("Id"),
-                    NameP = (string)p.Element("Name"),
-                    //Phone = (string?)p.Element("Phone")
-                };
+            var result = (filter == null ? products : products.Where(filter)).ToList();
 
-            return products.ToList();
+            if (result.Count == 0)
+                Console.WriteLine("No products found.");
+
+            return result.Cast<Product?>().ToList();
         }
     }
 }

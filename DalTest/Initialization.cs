@@ -3,7 +3,6 @@ using DalApi;
 using System.Runtime.Intrinsics.Arm;
 using Dal;
 using System.Data.SqlTypes;
-using DalXml;
 namespace DalTest
 {
     public static class Initialization
@@ -13,7 +12,7 @@ namespace DalTest
         //public static List<int> s_dal = new();
 
 
-        private static readonly IDal s_dal = DalXml.DalXml.Instance;
+        private static readonly IDal s_dal = Dal.DalXml.Instance;
         public static void Initialize()
         {
             //s_dal = new DalList();

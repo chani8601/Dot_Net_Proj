@@ -38,11 +38,17 @@ namespace Dal
             if (removed == 0)
                 throw new DalNotFoundException("Sale", id);
         }
+
         public void Update(Sale s)
         {
-            Delete(s.Id);
-            DataSource.sales.Add(s);
+            int index = DataSource.sales.FindIndex(x => x.Id == s.Id);
+
+            if (index == -1)
+                throw new DalNotFoundException("Sale", s.Id);
+
+            DataSource.sales[index] = s;
         }
+
         public Sale? Read(Func<Sale, bool> filter)
         {
             var s = DataSource.sales.FirstOrDefault(filter);

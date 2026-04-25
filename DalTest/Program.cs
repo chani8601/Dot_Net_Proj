@@ -12,13 +12,15 @@ namespace DalTest
 {
     internal class Program
     {
-        private static IDal s_dal = new DalList();
+        private static IDal s_dal = Dal.DalXml.Instance;
 
         private static void Main(string[] args)
         {
             try
             {
-                Initialization.Initialize();
+                Console.WriteLine("Do you want to initialize data? (y/n)");
+                if (Console.ReadLine()?.ToLower() == "y")
+                    Initialization.Initialize();
                 MainMenu();
             }
             catch (Exception ex)
@@ -205,30 +207,62 @@ namespace DalTest
             Product p = new Product(id, name, categ, Price, Amount);
             return p;
         }
-        private static Sale SaleAskall(int id = 0)
+        //private static Sale SaleAskall(int id = 0)
+        //{
+        //    int IdP, MinAmount;
+        //    double AllPrice;
+        //    bool IfEveryone;
+
+        //    Console.WriteLine("enter IdP of sale");
+        //    if (!int.TryParse(Console.ReadLine(), out IdP)) IdP = 1111;
+
+        //    Console.WriteLine("enter the amount you want");
+        //    if(!int.TryParse(Console.ReadLine(), out MinAmount)) MinAmount = 1;
+
+        //    Console.WriteLine("Insert the price after discount");
+        //    if (!double.TryParse(Console.ReadLine(), out AllPrice))
+        //        AllPrice = 3;
+
+        //    Console.WriteLine("Do you have to be a club customer?");
+        //    if (!bool.TryParse(Console.ReadLine(), out IfEveryone))
+        //        IfEveryone = true;
+
+        //    //??? לבדוק לגבי אתחול התאריכים
+        //    Sale s=new Sale(id, IdP, MinAmount, AllPrice, IfEveryone, DateTime.Now,DateTime.Now.AddDays(15));
+        //    return s;
+        //}
+
+
+        private static Sale SaleAskall()
         {
             int IdP, MinAmount;
             double AllPrice;
             bool IfEveryone;
 
             Console.WriteLine("enter IdP of sale");
-            if (!int.TryParse(Console.ReadLine(), out IdP)) IdP = 1111;
+            int.TryParse(Console.ReadLine(), out IdP);
 
             Console.WriteLine("enter the amount you want");
-            if(!int.TryParse(Console.ReadLine(), out MinAmount)) MinAmount = 1;
+            int.TryParse(Console.ReadLine(), out MinAmount);
 
             Console.WriteLine("Insert the price after discount");
-            if (!double.TryParse(Console.ReadLine(), out AllPrice))
-                AllPrice = 3;
+            double.TryParse(Console.ReadLine(), out AllPrice);
 
             Console.WriteLine("Do you have to be a club customer?");
-            if (!bool.TryParse(Console.ReadLine(), out IfEveryone))
-                IfEveryone = true;
+            bool.TryParse(Console.ReadLine(), out IfEveryone);
 
-            //??? לבדוק לגבי אתחול התאריכים
-            Sale s=new Sale(id, IdP, MinAmount, AllPrice, IfEveryone, DateTime.Now,DateTime.Now.AddDays(15));
-            return s;
+            return new Sale(
+                0,     
+                IdP,
+                MinAmount,
+                AllPrice,
+                IfEveryone,
+                DateTime.Now,
+                DateTime.Now.AddDays(15)
+            );
         }
+
+
         private static Customer CustomerAskall()
         {
             string Name, Address, Phone;

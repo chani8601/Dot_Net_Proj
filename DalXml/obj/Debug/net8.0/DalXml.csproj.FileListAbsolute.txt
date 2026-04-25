@@ -4,3 +4,19 @@ C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalXml\obj\Debug\net8
 C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
 C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
 C:\Users\1\Desktop\לימודים2\c#.net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.sourcelink.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\bin\Debug\net8.0\DalXml.deps.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\bin\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\bin\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.sourcelink.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.csproj.Up2Date
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\refint\DalXml.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalXml\obj\Debug\net8.0\ref\DalXml.dll

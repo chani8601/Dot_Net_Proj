@@ -18,16 +18,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DalXml
+namespace Dal
 {
     public sealed class DalXml : IDal
     {
         private static DalXml instance { get; } = new DalXml();
-        public static DalXml Instance { get { return instance; } }
-        private DalXml()
-        {
+        public static DalXml Instance => instance;
 
-        }
+        private DalXml() { }
+
         public ICustomer Customer => new CustomerImplementation();
 
         public ISale Sale => new SaleImplementation();

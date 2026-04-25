@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace DalXml
+namespace Dal
 {
     internal static class Config
     {
-        private static string fileName = "data-config";
+        private static string fileName = "../xml/data-config.xml";
 
         internal static int ProductNum
         {
@@ -32,6 +32,14 @@ namespace DalXml
 
         private static int ReadFromXml(string elementName)
         {
+            if (!File.Exists(fileName))
+            {
+                new XElement("config",
+                    new XElement("ProductNum", 1),
+                    new XElement("SaleNum", 1)
+                ).Save(fileName);
+            }
+
             XElement config = XElement.Load(fileName);
             return int.Parse(config.Element(elementName).Value);
         }

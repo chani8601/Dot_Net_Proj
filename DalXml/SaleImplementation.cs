@@ -1,7 +1,6 @@
 ﻿using DalApi;
 using DO;
 using System.Xml.Serialization;
-using static Dal.DalExceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,12 +13,22 @@ namespace Dal
         const string SALE_FILE_PATH = "../xml/sales.xml";
         private List<Sale> Load()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>));
             if (!File.Exists(SALE_FILE_PATH))
                 return new List<Sale>();
 
-            using StreamReader sr = new StreamReader(SALE_FILE_PATH);
-            return serializer.Deserialize(sr) as List<Sale> ?? new List<Sale>();
+            if (new FileInfo(SALE_FILE_PATH).Length == 0)
+                return new List<Sale>();
+
+            try
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>));
+                using StreamReader sr = new StreamReader(SALE_FILE_PATH);
+                return serializer.Deserialize(sr) as List<Sale> ?? new List<Sale>();
+            }
+            catch
+            {
+                return new List<Sale>();
+            }
         }
         private void saveList(List<Sale> prod)
         {
@@ -27,34 +36,36 @@ namespace Dal
             using StreamWriter sw = new StreamWriter(SALE_FILE_PATH);
             serializer.Serialize(sw, prod);
         }
-        private int Create(Sale prod)
+        public int Create(Sale sal)
         {
             List<Sale> sales = Load();
-            if (sales.Any(p => p.Id == prod.Id))
-                throw new DalAlreadyExistsException("prod already exist", prod.Id);
-            sales.Add(prod);
+            //לברר האם באמת כך נכון
+            sal = sal with { Id = Config.SaleNum };
+            if (sales.Any(p => p.Id == sal.Id))
+                throw new DalAlreadyExistsException("prod already exist", sal.Id);
+            sales.Add(sal);
             saveList(sales);
-            return prod.Id;
+            return sal.Id;
         }
-        private void Delete(int id)
+        public void Delete(int id)
         {
             List<Sale> sales = Load();
-            var psalesToDelete = sales.SingleOrDefault(s => s.Id == id);
+            var salesToDelete = sales.SingleOrDefault(s => s.Id == id);
             if (salesToDelete == null)
                 throw new DalNotFoundException("Sale", id);
-            sales.Remove(cust);
+            sales.Remove(salesToDelete);
             saveList(sales);
         }
-        private void Update(Sale sal)
+        public void Update(Sale sal)
         {
             List<Sale> sales = Load();
             var salesToUpdate = sales.FindIndex(s => s.Id == sal.Id);
             if (salesToUpdate == -1)
-                throw new DalNotFoundException(sal.name, sal.Id);
+                throw new DalNotFoundException("Sale", sal.Id);
             sales[salesToUpdate] = sal;
             saveList(sales);
         }
-        private Sale Read(int id)
+        public Sale? Read(int id)
         {
             List<Sale> sales = Load();
             var salesToUpdate = sales.FirstOrDefault(s => s.Id == id);
@@ -64,26 +75,16 @@ namespace Dal
         }
         public Sale? Read(Func<Sale, bool> filter)
         {
-            List<Sale> sales = LoadList();
+            List<Sale> sales = Load();
             var sal = sales.FirstOrDefault(filter);
             if (sal == null)
-                throw new DalIdNotFoundException("Sale", "id not found");
+                throw new DalNotFoundException("Sale", 0);
             return sal;
         }
-        public List<Sale> ReadAll()
+        public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
         {
-            XElement root = XElement.Load("../xml/sales.xml");
-
-            var sales =
-                from c in root.Elements("Sale")
-                select new Sale
-                {
-                    Id = (int)s.Element("Id"),
-                    Name = (string)s.Element("Name"),
-                    Phone = (string?)s.Element("Phone")
-                };
-
-            return sales.ToList();
+            List<Sale> sales = Load();
+            return (filter == null ? sales : sales.Where(filter)).Cast<Sale?>().ToList();
         }
     }
 }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B5M9J3+Wjo4=",
+  "dgSpecHash": "iwNcejgTP4o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\Desktop\\לימודים2\\c#.net\\הפרוייקט\\DalTest\\DalTest.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\כיתה יד תכנות\\C#.Net\\הפרוייקט\\DalTest\\DalTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1\\.nuget\\packages\\awssdk.core\\4.0.3.6\\awssdk.core.4.0.3.6.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\awssdk.simplesystemsmanagement\\4.0.6.7\\awssdk.simplesystemsmanagement.4.0.6.7.nupkg.sha512"
+    "C:\\Users\\user1\\.nuget\\packages\\awssdk.core\\4.0.3.6\\awssdk.core.4.0.3.6.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\awssdk.simplesystemsmanagement\\4.0.6.7\\awssdk.simplesystemsmanagement.4.0.6.7.nupkg.sha512"
   ],
   "logs": []
 }
