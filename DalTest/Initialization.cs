@@ -11,11 +11,13 @@ namespace DalTest
         //  private static IDal? s_dal;
         //public static List<int> s_dal = new();
 
+        //לברר האם צריך לאתחל גם את השורה הזאת,הורדתי את האתחול כי עשה לי שגיאה
+        private static IDal s_dal;
 
-        private static readonly IDal s_dal = Dal.DalXml.Instance;
         public static void Initialize()
         {
-            //s_dal = new DalList();
+            s_dal = DalApi.Factory.Get;
+
             CreateCustomers();
             CreatProducts();
             CreatSales();
