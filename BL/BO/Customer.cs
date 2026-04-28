@@ -24,5 +24,9 @@ namespace BO
         public string? Address { get; set; }
         public string Phone { get; set; }
 
+        internal DO.Customer ConvertBoCustomerToDoCustomer()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
