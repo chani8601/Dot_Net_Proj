@@ -1,6 +1,5 @@
-﻿
-//namespace BL.BO
-namespace BO
+﻿//namespace BL.BO
+namespace BL.BO
 {
-    
+
 }

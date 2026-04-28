@@ -25,9 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{95ED3CDF-31D4-4BE0-8EBA-5D35C65C9F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "BL\BL.csproj", "{95ED3CDF-31D4-4BE0-8EBA-5D35C65C9F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLTtest", "BLTtest\BLTtest.csproj", "{F29C5143-7C74-489B-AD2B-E4E21271B39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLTtest", "BLTtest\BLTtest.csproj", "{F29C5143-7C74-489B-AD2B-E4E21271B39B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

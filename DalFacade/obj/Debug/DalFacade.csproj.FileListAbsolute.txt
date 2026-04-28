@@ -77,3 +77,15 @@ C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalFacad
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\akuooooooooooo\csharp-store-system\bin\DalFacade.deps.json
+M:\akuooooooooooo\csharp-store-system\bin\DalFacade.dll
+M:\akuooooooooooo\csharp-store-system\bin\DalFacade.pdb
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.sourcelink.json
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.dll
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\DalFacade.pdb
+M:\akuooooooooooo\csharp-store-system\DalFacade\obj\Debug\ref\DalFacade.dll

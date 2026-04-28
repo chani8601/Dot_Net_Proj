@@ -91,3 +91,17 @@ C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalList\
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalList\obj\Debug\refint\DalList.dll
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalList\obj\Debug\DalList.pdb
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\הפרוייקט\DalList\obj\Debug\ref\DalList.dll
+M:\akuooooooooooo\csharp-store-system\bin\DalList.deps.json
+M:\akuooooooooooo\csharp-store-system\bin\DalList.dll
+M:\akuooooooooooo\csharp-store-system\bin\DalList.pdb
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.dll
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\DalList.pdb
+M:\akuooooooooooo\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
