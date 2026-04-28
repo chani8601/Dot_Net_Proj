@@ -29,6 +29,9 @@ namespace BL.BO
         {
             return new DO.Product(product.Id, product.NameP, product.Category, product.Price, product.Amount);
         }
-
+        public static void trying()
+        {
+            //ebkwhbelvwontlntlr
+        }
     }
 }
