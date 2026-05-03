@@ -4,10 +4,12 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+﻿using DO;
 
-namespace BL.BO
+
+namespace BO
 {
-    public static class Tools
+    internal static class Tools
     {
 
 
@@ -24,22 +26,22 @@ namespace BL.BO
             return str;
 
         }
-        //public static DO.Customer ConvertBoCustomerToDoCustomer(this BO.Customer customer)
-        //{
-        //    return new DO.Customer(customer.Customer_Id, customer.Customer_Address, customer.Customer_Phone, customer.Customer_Name);
-        //}
+        public static DO.Customer ConvertBoCustomerToDoCustomer(this BO.Customer customer)
+        {
+            return new DO.Customer(customer.Customer_Id, customer.Customer_Address, customer.Customer_Phone, customer.Customer_Name);
+        }
 
-        //public static BO.Customer ConvertDoCustomerToBoCustomer(this DO.Customer customer)
-        //{
-        //    return new BO.Customer()
-        //    {
-        //        Customer_Id = customer.Customer_Id,
-        //        Customer_Name = customer.Customer_Name,
-        //        Customer_Phone = customer.Customer_Phone,
-        //        Customer_Address = customer.Customer_Address
-        //    };
+        public static BO.Customer ConvertDoCustomerToBoCustomer(this DO.Customer customer)
+        {
+            return new BO.Customer()
+            {
+                Customer_Id = customer.,
+                Customer_Name = customer.Customer_Name,
+                Customer_Phone = customer.Customer_Phone,
+                Customer_Address = customer.Customer_Address
+            };
 
-        //}
+        }
 
 
 
