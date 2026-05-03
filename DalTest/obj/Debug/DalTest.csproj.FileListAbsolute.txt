@@ -129,3 +129,20 @@ M:\akuooooooooooo\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
 M:\akuooooooooooo\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
 M:\akuooooooooooo\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 M:\akuooooooooooo\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalTest.exe
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalTest.deps.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalTest.runtimeconfig.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalTest.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalTest.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll

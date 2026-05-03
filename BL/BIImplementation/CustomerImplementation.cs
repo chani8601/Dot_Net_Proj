@@ -35,6 +35,12 @@ namespace BIImplementation
                 throw new Exception("");
             }
         }
+
+        public bool IsCustomerExist(int customerId)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsExist(int id)
         {
             try
@@ -58,6 +64,12 @@ namespace BIImplementation
                 throw new Exception();
             }
         }
+
+        public BO.Customer? Read(Func<BO.Customer, bool> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
         {
             try

@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Dal
 {
-    internal class CustomerImplementation:ICustomer
+    internal class CustomerImplementation : ICustomer
     {
         private static readonly string CUSTOMERS_FILE_PATH = "../xml/customers.xml";
 
@@ -77,6 +77,11 @@ namespace Dal
             XElement root = LoadXml();
             var customers = root.Elements("Customer").Select(ToCustomer);
             return (filter == null ? customers : customers.Where(filter)).Cast<Customer?>().ToList();
+        }
+
+        public int Create(Func<Customer> convertBoCustomerToDoCustomer)
+        {
+            throw new NotImplementedException();
         }
     }
 }

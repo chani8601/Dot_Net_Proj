@@ -35,10 +35,10 @@ namespace BO
         {
             return new BO.Customer()
             {
-                Customer_Id = customer.,
-                Customer_Name = customer.Customer_Name,
-                Customer_Phone = customer.Customer_Phone,
-                Customer_Address = customer.Customer_Address
+                Customer_Id = customer.Id,
+                Customer_Name = customer.Name,
+                Customer_Phone = customer.Phone,
+                Customer_Address = customer.Address
             };
 
         }
@@ -47,23 +47,22 @@ namespace BO
 
 
 
-        //public static DO.Product ConvertBoProductToDoProduct(this BO.Product product)
-        //{
-        //    return new DO.Product(product.Product_Id, product.Product_Name, product.Price, product.Count, (DO.categoryProduct)product.category);
-        //}
+        public static DO.Product ConvertBoProductToDoProduct(this BO.Product product)
+        {
+            return new DO.Product(product.Product_Id, product.Product_Name, (DO.category)product.Product_Category, product.Product_Price, product.Amount);
+        }
+        public static BO.Product ConvertDoProductToBoProduct(this DO.Product product)
+        {
+            return new BO.Product()
+            {
+                Product_Id = product.Product_Id,
+                Product_Name = product.Product_Name,
+                Product_Price = product.Product_Price,
+                Count = product.Count,
+                Product_Category = (BO.category_Product)product.Product_Category
+            };
 
-        //public static BO.Product ConvertDoProductToBoProduct(this DO.Product product)
-        //{
-        //    return new BO.Product()
-        //    {
-        //        Product_Id = product.Product_Id,
-        //        Product_Name = product.Product_Name,
-        //        Price = product.Price,
-        //        Count = product.Count,
-        //        category = (BO.categoryProduct)product.category
-        //    };
-
-        //}
+        }
 
 
 

@@ -55,5 +55,10 @@ namespace Dal
             throw new Exception("The customer was not found according to the requested condition.\r\n");
             //throw new DalNotFoundException("Customer",0);
         }
+
+        public int Create(Func<Customer> convertBoCustomerToDoCustomer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

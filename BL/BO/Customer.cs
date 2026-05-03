@@ -12,17 +12,21 @@ namespace BO
         {
 
         }
-        public Customer(int Id, string? Name, string? Address, string Phone)
+
+
+
+
+        public Customer(int Customer_Id, string? Customer_Name, string? Customer_Address, string Customer_Phone)
         {
-            id = Id;
-            this.Name = Name;
-            this.Address = Address;
-            this.Phone = Phone;
+           this. Customer_Id = Customer_Id;
+            this.Customer_Name = Customer_Name;
+            this.Customer_Address = Customer_Address;
+            this.Customer_Phone = Customer_Phone;
         }
-        public int id { get; set; }
-        public string? Name { get; set; }
-        public string? Address { get; set; }
-        public string Phone { get; set; }
+        public int Customer_Id { get; set; }
+        public string? Customer_Name { get; set; }
+        public string? Customer_Address { get; set; }
+        public string Customer_Phone { get; set; }
 
         internal DO.Customer ConvertBoCustomerToDoCustomer()
         {

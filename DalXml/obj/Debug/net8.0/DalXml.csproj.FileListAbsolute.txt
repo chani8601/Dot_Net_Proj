@@ -36,3 +36,12 @@ M:\akuooooooooooo\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.dll
 M:\akuooooooooooo\csharp-store-system\DalXml\obj\Debug\net8.0\refint\DalXml.dll
 M:\akuooooooooooo\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.pdb
 M:\akuooooooooooo\csharp-store-system\DalXml\obj\Debug\net8.0\ref\DalXml.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.sourcelink.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\refint\DalXml.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalXml\obj\Debug\net8.0\DalXml.pdb
