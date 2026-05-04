@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BL.BO;
+using BO;
+using DalApi;
+using System.Reflection;
 using static BO.Tools;
 
 
 namespace BIImplementation
 {
-    internal class CustomerImplementation : ICustomer
+    internal class CustomerImplementation : BIApi. ICustomer
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
         public int Create(BO.Customer item)

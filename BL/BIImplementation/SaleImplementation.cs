@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BL.BO;
+using BO;
+using DalApi;
+using System.Reflection;
+using static BO.Tools;
 
-namespace BL.BIImplementation
+namespace BIImplementation
 {
     internal class SaleImplementation : ISale
     {

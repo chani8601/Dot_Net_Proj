@@ -8,22 +8,22 @@ namespace BO
 {
     public class Sale
     {
-        public int Id { get; set; }
-        public int IdP { get; set; }
-        public int MinAmount { get; set; }
-        public double AllPrice { get; set; }
-        public bool IfEveryone { get; set; }
-        public DateTime StartSale { get; set; }
-        public DateTime EndSale { get; set; }
-        public Sale(int Id, int IdP, int MinAmount, double AllPrice, bool IfEveryone, DateTime StartSale, DateTime EndSale)
+        public int SaleId { get; set; }
+        public int ProductId { get; set; }
+        public int MinAmountSale { get; set; }
+        public double Price_Sale { get; set; }
+        public bool If_All_Customers { get; set; }
+        public DateTime Date_Start_Sale { get; set; }
+        public DateTime DateEndSale { get; set; }
+        public Sale(int SaleId, int ProductId, int MinAmountSale, double Price_Sale, bool If_All_Customers, DateTime Date_Start_Sale, DateTime DateEndSale)
         {
-            this.Id = Id;
-            this.IdP = IdP;
-            this.MinAmount = MinAmount;
-            this.AllPrice = AllPrice;
-            this.IfEveryone = IfEveryone;
-            this.StartSale = StartSale;
-            this.EndSale = EndSale;
+            this.SaleId = SaleId;
+            this.ProductId = ProductId;
+            this.MinAmountSale = MinAmountSale;
+            this.Price_Sale = Price_Sale;
+            this.If_All_Customers = If_All_Customers;
+            this.Date_Start_Sale = Date_Start_Sale;
+            this.DateEndSale = DateEndSale;
         }
         public Sale()
         {
@@ -31,3 +31,4 @@ namespace BO
         }
     }
 }
+

@@ -49,17 +49,17 @@ namespace BO
 
         public static DO.Product ConvertBoProductToDoProduct(this BO.Product product)
         {
-            return new DO.Product(product.Product_Id, product.Product_Name, (DO.category)product.Product_Category, product.Product_Price, product.Amount);
+            return new DO.Product(product.Product_Id, product.Product_Name, (DO.category)product.Product_Category, product.Product_Price, product.Product_Amount);
         }
         public static BO.Product ConvertDoProductToBoProduct(this DO.Product product)
         {
             return new BO.Product()
             {
-                Product_Id = product.Product_Id,
-                Product_Name = product.Product_Name,
-                Product_Price = product.Product_Price,
-                Count = product.Count,
-                Product_Category = (BO.category_Product)product.Product_Category
+                Product_Id = product.Id,
+                Product_Name = product.NameP,
+                Product_Price = product.Price,
+                Product_Amount = product.Amount,
+                Product_Category = (BO.category_Product)product.Category
             };
 
         }
@@ -70,24 +70,24 @@ namespace BO
 
 
 
-        //public static DO.Sale ConvertBoSaleToDoSale(this BO.Sale sale)
-        //{
-        //    return new DO.Sale(sale.SaleId, sale.ProductId, sale.Price_Sale, sale.If_All_Customers, sale.Date_Start_Sale, sale.Count_Sale, sale.Date_End_Sale);
-        //}
+        public static DO.Sale ConvertBoSaleToDoSale(this BO.Sale sale)
+        {
+            return new DO.Sale(sale.SaleId, sale.ProductId, sale.MinAmountSale, sale.Price_Sale, sale.If_All_Customers, sale.Date_Start_Sale, sale.DateEndSale);
+        }
 
-        //public static BO.Sale ConvertDoSaleToBoSale(this DO.Sale sale)
-        //{
-        //    return new BO.Sale()
-        //    {
-        //        SaleId = sale.SaleId,
-        //        ProductId = sale.ProductId,
-        //        Price_Sale = sale.Price_Sale,
-        //        If_All_Customers = sale.If_All_Customers,
-        //        Date_Start_Sale = sale.Date_Start_Sale,
-        //        Count_Sale = sale.Count_Sale,
-        //        Date_End_Sale = sale.Date_End_Sale,
-        //    };
+        public static BO.Sale ConvertDoSaleToBoSale(this DO.Sale sale)
+        {
+            return new BO.Sale()
+            {
+                SaleId = sale.Id,
+                ProductId = sale.IdP,
+                Price_Sale = sale.AllPrice,
+                If_All_Customers = sale.IfEveryone,
+                Date_Start_Sale = sale.StartSale,
+                MinAmountSale = sale.MinAmount,
+                DateEndSale = sale.EndSale,
+            };
 
-        //}
+        }
     }
 }
