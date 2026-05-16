@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>1</Id>
+    <Name>Tzipi Etinger</Name>
+    <Address>Rashbi 9 Moddin Ilit</Address>
+    <Phone>0548409683</Phone>
+  </Customer>
+  <Customer>
+    <Id>2</Id>
+    <Name>Chani Avramovich</Name>
+    <Address>Shaarei Tshuva 6 Modiin Ilit</Address>
+    <Phone>0504118601</Phone>
+  </Customer>
+</ArrayOfCustomer>

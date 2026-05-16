@@ -119,3 +119,87 @@ C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\bin\DalList.pdb
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+E:\פרויקט מעודכן\csharp-store-system\bin\DalList.deps.json
+E:\פרויקט מעודכן\csharp-store-system\bin\DalList.dll
+E:\פרויקט מעודכן\csharp-store-system\bin\DalList.pdb
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.dll
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.pdb
+E:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+D:\פרויקט מעודכן\csharp-store-system\bin\DalList.deps.json
+D:\פרויקט מעודכן\csharp-store-system\bin\DalList.dll
+D:\פרויקט מעודכן\csharp-store-system\bin\DalList.pdb
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.dll
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\DalList.pdb
+D:\פרויקט מעודכן\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+E:\Tzipi&Chani\csharp-store-system\bin\DalList.deps.json
+E:\Tzipi&Chani\csharp-store-system\bin\DalList.dll
+E:\Tzipi&Chani\csharp-store-system\bin\DalList.pdb
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.dll
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.pdb
+E:\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.deps.json
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.pdb
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.pdb
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.deps.json
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalList.pdb
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.pdb
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalList.deps.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalList.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalList.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\DalList.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalList\obj\Debug\ref\DalList.dll

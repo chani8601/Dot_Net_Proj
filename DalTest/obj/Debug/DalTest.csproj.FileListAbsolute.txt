@@ -146,3 +146,105 @@ C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+E:\פרויקט מעודכן\csharp-store-system\bin\DalTest.exe
+E:\פרויקט מעודכן\csharp-store-system\bin\DalTest.deps.json
+E:\פרויקט מעודכן\csharp-store-system\bin\DalTest.runtimeconfig.json
+E:\פרויקט מעודכן\csharp-store-system\bin\DalTest.dll
+E:\פרויקט מעודכן\csharp-store-system\bin\DalTest.pdb
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+D:\פרויקט מעודכן\csharp-store-system\bin\DalTest.exe
+D:\פרויקט מעודכן\csharp-store-system\bin\DalTest.deps.json
+D:\פרויקט מעודכן\csharp-store-system\bin\DalTest.runtimeconfig.json
+D:\פרויקט מעודכן\csharp-store-system\bin\DalTest.dll
+D:\פרויקט מעודכן\csharp-store-system\bin\DalTest.pdb
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+D:\פרויקט מעודכן\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+E:\Tzipi&Chani\csharp-store-system\bin\DalTest.exe
+E:\Tzipi&Chani\csharp-store-system\bin\DalTest.deps.json
+E:\Tzipi&Chani\csharp-store-system\bin\DalTest.runtimeconfig.json
+E:\Tzipi&Chani\csharp-store-system\bin\DalTest.dll
+E:\Tzipi&Chani\csharp-store-system\bin\DalTest.pdb
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.exe
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.deps.json
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.runtimeconfig.json
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.pdb
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+T:\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.exe
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.deps.json
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.runtimeconfig.json
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\bin\DalTest.pdb
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+T:\Seminar\Handasaim\יד\בינה\C# .NET\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalTest.exe
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalTest.deps.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalTest.runtimeconfig.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalTest.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\bin\DalTest.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll

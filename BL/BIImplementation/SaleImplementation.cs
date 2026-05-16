@@ -8,13 +8,12 @@ using BO;
 using DalApi;
 using System.Reflection;
 using static BO.Tools;
-
 namespace BIImplementation
 {
-    internal class SaleImplementation : ISale
+    internal class SaleImplementation : BIApi.ISale
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
-        int Create(Sale item)
+        public int Create(Sale item)
         {
             try
             {
@@ -25,7 +24,7 @@ namespace BIImplementation
                 throw new Exception("");//??
             }
         }
-        void Update(Sale item)
+        public void Update(Sale item)
         {
             try
             {
@@ -37,7 +36,7 @@ namespace BIImplementation
 
             }
         }
-        void Delete(int id)
+        public void Delete(int id)
         {
             try
             {
@@ -48,7 +47,7 @@ namespace BIImplementation
                 throw new Exception();
             }
         }
-        List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
+        public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
         {
             try
             {
@@ -62,7 +61,7 @@ namespace BIImplementation
                 throw new Exception();
             }
         }
-        Sale? Read(Func<Sale, bool> filter)
+        public Sale? Read(Func<Sale, bool> filter)
         {
             try
             {
@@ -73,7 +72,7 @@ namespace BIImplementation
                 throw new Exception();
             }
         }
-        Sale? Read(int id)
+        public Sale? Read(int id)
         {
             try
             {

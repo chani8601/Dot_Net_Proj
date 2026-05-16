@@ -21,5 +21,7 @@ namespace BO
             this.products = products;
             this.final_price = final_price;
         }
+        public override string ToString() => this.ToStringProperty();
+
     }
 }

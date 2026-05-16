@@ -11,7 +11,7 @@ namespace BIApi
     public interface IOrder
     {
         List<SaleInProduct> AddProductToOrder(Order order,int code,int amount);
-        void CalcTotalPriceForProduct(Product product);
+        void CalcTotalPriceForProduct(ProductInOrder productInOrder);
         void CalcTotalPrice(BO.Order order);
         void DoOrder(Order order);
         void SearchSaleForProduct(ProductInOrder productInOrder, bool isFavorite);

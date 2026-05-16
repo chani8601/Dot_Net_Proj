@@ -45,7 +45,7 @@ namespace BIImplementation
         {
             try
             {
-                return _dal.Product.Read(id).ConvertBoProductToDoProduct();
+                return _dal.Product.Read(id).ConvertDoProductToBoProduct();
             }
             catch
             {
@@ -69,9 +69,9 @@ namespace BIImplementation
             try
             {
                 if (filter == null)
-                    return _dal.Product.ReadAll().Select(s => s.ConvertBoProductToDoProduct()).ToList();
+                    return _dal.Product.ReadAll().Select(s => s.ConvertDoProductToBoProduct()).ToList();
                 else
-                    return _dal.Product.ReadAll(s => filter(s.ConvertBoProductToDoProduct())).Select(s => s.ConvertDoCustomerToBoCustomer()).ToList();
+                    return _dal.Product.ReadAll(s => filter(s.ConvertDoProductToBoProduct())).Select(s => s.ConvertDoProductToBoProduct()).ToList();
             }
             catch
             {

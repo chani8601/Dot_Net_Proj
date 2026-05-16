@@ -1,10 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-﻿using DO;
 
 
 namespace BO
@@ -49,8 +48,9 @@ namespace BO
 
         public static DO.Product ConvertBoProductToDoProduct(this BO.Product product)
         {
-            return new DO.Product(product.Product_Id, product.Product_Name, (DO.category)product.Product_Category, product.Product_Price, product.Product_Amount);
+            return new DO.Product(product.Product_Id, product.Product_Name, product.Product_Category, product.Product_Price, product.Product_Amount);
         }
+
         public static BO.Product ConvertDoProductToBoProduct(this DO.Product product)
         {
             return new BO.Product()
@@ -59,14 +59,10 @@ namespace BO
                 Product_Name = product.NameP,
                 Product_Price = product.Price,
                 Product_Amount = product.Amount,
-                Product_Category = (BO.category_Product)product.Category
+                Product_Category = product.Category
             };
 
         }
-
-
-
-
 
 
 

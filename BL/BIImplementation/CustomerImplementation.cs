@@ -39,7 +39,7 @@ namespace BIImplementation
                 throw new Exception("");
             }
         }
-
+        // לזכור לממש!!!!!!!!!!!!!
         public bool IsCustomerExist(int customerId)
         {
             throw new NotImplementedException();

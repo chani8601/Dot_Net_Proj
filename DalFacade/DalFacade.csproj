@@ -5,11 +5,13 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<RootNamespace />
-		<BaseOutputPath>M:\פרויקט!!!!!!!!!!!!!!!!!!!!!!!!\DotNet2026_1769_5883\bin</BaseOutputPath>
+		<BaseOutputPath>$(SolutionDir)\bin\</BaseOutputPath>
 		<OutputPath>$(SolutionDir)\bin\</OutputPath>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
 		<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+		<RootNamespace />
+
 
 		<RootNamespace />
 

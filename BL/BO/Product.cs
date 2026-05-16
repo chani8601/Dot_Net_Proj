@@ -1,5 +1,3 @@
-﻿using BO;
-using DO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +8,7 @@ namespace BO
 {
     public class Product
     {
-        public Product(int Product_Id, string? Product_Name, category Product_Category, double Product_Price, int Product_Amount, List<Product> SaleInProduct)
+        public Product(int Product_Id, string? Product_Name, DO.category Product_Category, double Product_Price, int Product_Amount, List<Product> SaleInProduct)
         {
             this.Product_Id = Product_Id;
             this.Product_Name = Product_Name;
@@ -25,7 +23,7 @@ namespace BO
         }
         public int Product_Id { get; set; }
         public string? Product_Name { get; set; }
-        public category Product_Category { get; set; }
+        public DO.category Product_Category { get; set; }
         public double Product_Price { get; set; }
         public int Product_Amount { get; set; }
         public List<Product> SaleInProduct { get; set; }
