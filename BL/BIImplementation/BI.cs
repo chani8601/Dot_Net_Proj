@@ -13,7 +13,7 @@ namespace BL.BIImplementation
     {
      public ICustomer Customer =>  new CustomerImplementation();
 
-        public IOrder Order => throw new();//לתקן אחרי שמסדרים את האורדר
+        public IOrder Order => new OrderImplementation();//לתקן אחרי שמסדרים את האורדר
 
         public ISale Sale => new SaleImplementation();
 

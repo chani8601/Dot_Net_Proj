@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xml", "xml", "{94B47719-C59
 		xml\sales.xml = xml\sales.xml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlTest1", "BlTest1\BlTest1.csproj", "{D0CE0F69-2AE2-438F-8F4E-A0F002BA73AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlTest", "BlTest1\BlTest.csproj", "{D0CE0F69-2AE2-438F-8F4E-A0F002BA73AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{519EECDE-C409-4456-9098-102CAA30EABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{D0CE0F69-2AE2-438F-8F4E-A0F002BA73AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0CE0F69-2AE2-438F-8F4E-A0F002BA73AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0CE0F69-2AE2-438F-8F4E-A0F002BA73AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519EECDE-C409-4456-9098-102CAA30EABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519EECDE-C409-4456-9098-102CAA30EABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519EECDE-C409-4456-9098-102CAA30EABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519EECDE-C409-4456-9098-102CAA30EABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

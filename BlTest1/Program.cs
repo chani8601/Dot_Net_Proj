@@ -9,6 +9,7 @@ namespace BlTest1
         static void Main(string[] args)
         {
             //DalTest.Initialization.Initialize();
+            bool club = true;
             Console.WriteLine(" Hello costumer");
 
             Console.WriteLine("insert id:");
@@ -17,14 +18,15 @@ namespace BlTest1
             if (!s_bl.Customer.IsCustomerExist(customerId))
             {
                 Console.WriteLine("Customer does not exist");
-                return;
+                club = false;
+               
             }
 
-            Console.WriteLine("Are you a club member?");
-            Console.WriteLine("1 - Yes");
-            Console.WriteLine("0 - No");
+            //Console.WriteLine("Are you a club member?");
+            //Console.WriteLine("1 - Yes");
+            //Console.WriteLine("0 - No");
 
-            bool club = Console.ReadLine() == "1";
+            //bool club = Console.ReadLine() == "1";
 
             Order order = new Order()
             {
@@ -58,7 +60,7 @@ namespace BlTest1
                             Console.WriteLine("Enter amount:");
                             int amount = int.Parse(Console.ReadLine());
 
-                            var sales = s_bl.Order.AddProductToOrder(order, productId, amount);
+                            List<SaleInProduct> sales = s_bl.Order.AddProductToOrder(order, productId, amount);
 
                             Console.WriteLine("Product added to order");
 
@@ -96,7 +98,7 @@ namespace BlTest1
                             Console.WriteLine($"Product ID: {item.id}");
                             Console.WriteLine($"Name: {item.name}");
                             Console.WriteLine($"Amount: {item.amount}");
-                            Console.WriteLine($"Base price: {item.basic_price}");
+                            Console.WriteLine($"Price for a single product: {item.basic_price}");
                             Console.WriteLine($"Final price: {item.final_price}");
 
                             Console.WriteLine("Sales:");

@@ -248,3 +248,20 @@ C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.pdb
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\Tzipi&Chani\csharp-store-system\DalTest\obj\Debug\ref\DalTest.dll
+M:\C#.NET\Dot_Net_Proj\bin\DalTest.exe
+M:\C#.NET\Dot_Net_Proj\bin\DalTest.deps.json
+M:\C#.NET\Dot_Net_Proj\bin\DalTest.runtimeconfig.json
+M:\C#.NET\Dot_Net_Proj\bin\DalTest.dll
+M:\C#.NET\Dot_Net_Proj\bin\DalTest.pdb
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.sourcelink.json
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.dll
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\refint\DalTest.dll
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.pdb
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\C#.NET\Dot_Net_Proj\DalTest\obj\Debug\ref\DalTest.dll

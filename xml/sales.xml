@@ -2,7 +2,7 @@
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
     <Id>114</Id>
-    <IdP>111</IdP>
+    <IdP>225</IdP>
     <MinAmount>5</MinAmount>
     <AllPrice>20</AllPrice>
     <IfEveryone>true</IfEveryone>
@@ -11,7 +11,7 @@
   </Sale>
   <Sale>
     <Id>115</Id>
-    <IdP>112</IdP>
+    <IdP>224</IdP>
     <MinAmount>2</MinAmount>
     <AllPrice>10</AllPrice>
     <IfEveryone>false</IfEveryone>
