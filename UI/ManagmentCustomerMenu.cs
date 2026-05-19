@@ -61,5 +61,10 @@ namespace UI
         {
 
         }
+
+        private void ShowAllCustomerBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

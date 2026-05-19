@@ -185,3 +185,15 @@ M:\C#.NET\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.dll
 M:\C#.NET\Dot_Net_Proj\DalFacade\obj\Debug\refint\DalFacade.dll
 M:\C#.NET\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.pdb
 M:\C#.NET\Dot_Net_Proj\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\bin\DalFacade.deps.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\bin\DalFacade.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\bin\DalFacade.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\ref\DalFacade.dll
