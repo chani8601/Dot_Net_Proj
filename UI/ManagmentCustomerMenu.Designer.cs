@@ -110,7 +110,7 @@
             ShowAllCustomerBtn.TabIndex = 12;
             ShowAllCustomerBtn.Text = "Show all Customer";
             ShowAllCustomerBtn.UseVisualStyleBackColor = true;
-            ShowAllCustomerBtn.Click += this.ShowAllCustomerBtn_Click;
+            //ShowAllCustomerBtn.Click += this.ShowAllCustomerBtn_Click;
             // 
             // panel1
             // 

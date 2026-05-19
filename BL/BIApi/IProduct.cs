@@ -10,6 +10,7 @@ namespace BIApi
 {
     public interface IProduct
     {
+      
         int Create(Product item);
         Product? Read(int id);
         void Update(Product item);

@@ -2,16 +2,30 @@
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
     <Id>224</Id>
-    <NameP >Ice Coffee</NameP >
+    <NameP>Ice Coffee</NameP>
     <Category>c1</Category>
     <Price>10</Price>
-    <Amount>5</Amount>
+    <Amount>10</Amount>
   </Product>
   <Product>
     <Id>225</Id>
-    <NameP >Choclate</NameP >
+    <NameP>Choclate</NameP>
     <Category>c2</Category>
     <Price>20</Price>
-    <Amount>8</Amount>
+    <Amount>5</Amount>
+  </Product>
+  <Product>
+    <Id>226</Id>
+    <NameP>Milk</NameP>
+    <Category>c1</Category>
+    <Price>8</Price>
+    <Amount>15</Amount>
+  </Product>
+  <Product>
+    <Id>227</Id>
+    <NameP>Bread</NameP>
+    <Category>c2</Category>
+    <Price>12</Price>
+    <Amount>19</Amount>
   </Product>
 </ArrayOfProduct>

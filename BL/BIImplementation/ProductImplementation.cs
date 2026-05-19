@@ -82,6 +82,8 @@ namespace BIImplementation
         {
             try
             {
+                if (item.Product_Amount < 0)
+                    throw new Exception("Product amount cannot be negative");
                 _dal.Product.Update(item.ConvertBoProductToDoProduct());
             }
             catch
