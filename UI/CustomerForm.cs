@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using BIApi;
@@ -8,13 +8,13 @@ namespace UI
 {
     public partial class CustomerForm : Form
     {
-        private double totalPrice = 0;
-
         private IBI bl = BIApi.Factory.Get();
+        private Order order;
 
-        public CustomerForm()
+        public CustomerForm(int customerId, bool isClubMember)
         {
             InitializeComponent();
+            order = new Order { club = isClubMember, products = new System.Collections.Generic.List<ProductInOrder>(), final_price = 0 };
             LoadProducts();
             btnPay.Click += (s, e) => CloseOrder();
         }
@@ -22,72 +22,61 @@ namespace UI
         private void LoadProducts()
         {
             productsPanelInCus.Controls.Clear();
-
             var products = bl.Product.ReadAll();
-
             foreach (var p in products)
             {
                 if (p == null) continue;
-
                 AddProductCard(p);
             }
         }
 
-        // ✔ עבודה נכונה עם BO.Product
         private void AddProductCard(Product p)
         {
+            var activeSales = bl.Sale.ReadAll(s =>
+                s != null &&
+                s.ProductId == p.Product_Id &&
+                s.Date_Start_Sale <= DateTime.Now &&
+                s.DateEndSale >= DateTime.Now &&
+                (s.If_All_Customers || order.club));
+
             Panel card = new Panel();
             card.Width = 220;
-            card.Height = 180;
+            card.Height = 200;
             card.BackColor = Color.White;
             card.BorderStyle = BorderStyle.FixedSingle;
             card.Margin = new Padding(15);
 
-            Label lblName = new Label();
-            lblName.Text = p.Product_Name;
-            lblName.Font = new Font("Arial", 16, FontStyle.Bold);
-            lblName.Top = 20;
-            lblName.Left = 20;
-            lblName.AutoSize = true;
-
-            Label lblPrice = new Label();
-            lblPrice.Text = "₪" + p.Product_Price;
-            lblPrice.Font = new Font("Arial", 14);
-            lblPrice.Top = 70;
-            lblPrice.Left = 20;
-            lblPrice.AutoSize = true;
-
-            Label lblStock = new Label();
-            lblStock.Text = "Stock: " + p.Product_Amount;
-            lblStock.Font = new Font("Arial", 10);
-            lblStock.Top = 95;
-            lblStock.Left = 20;
-            lblStock.AutoSize = true;
-
-            Button btnAdd = new Button();
-            btnAdd.Text = "Add To Cart";
-            btnAdd.Width = 150;
-            btnAdd.Height = 40;
-            btnAdd.Top = 120;
-            btnAdd.Left = 20;
-
-            btnAdd.Click += (sender, e) =>
-            {
-                AddToCart(p);
-            };
+            Label lblName = new Label { Text = p.Product_Name, Font = new Font("Arial", 16, FontStyle.Bold), Top = 10, Left = 10, AutoSize = true };
+            Label lblPrice = new Label { Text = "₪" + p.Product_Price, Font = new Font("Arial", 14), Top = 50, Left = 10, AutoSize = true };
+            Label lblStock = new Label { Text = "Stock: " + p.Product_Amount, Font = new Font("Arial", 10), Top = 80, Left = 10, AutoSize = true };
 
             card.Controls.Add(lblName);
             card.Controls.Add(lblPrice);
             card.Controls.Add(lblStock);
+
+            if (activeSales != null && activeSales.Count > 0)
+            {
+                var sale = activeSales[0];
+                Label lblSale = new Label
+                {
+                    Text = $"SALE: ₪{sale.Price_Sale} for {sale.MinAmountSale}+",
+                    Font = new Font("Arial", 9, FontStyle.Bold),
+                    ForeColor = Color.Red,
+                    Top = 100,
+                    Left = 10,
+                    AutoSize = true
+                };
+                card.Controls.Add(lblSale);
+            }
+
+            Button btnAdd = new Button { Text = "Add To Cart", Width = 150, Height = 35, Top = 150, Left = 10 };
+            btnAdd.Click += (sender, e) => AddToCart(p);
             card.Controls.Add(btnAdd);
 
             productsPanelInCus.Controls.Add(card);
         }
 
-        private void cartGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        private void cartGrid_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
 
         private void AddToCart(Product p)
         {
@@ -96,15 +85,30 @@ namespace UI
                 MessageBox.Show("Product out of stock!");
                 return;
             }
-            double price = p.Product_Price;
-            cartGrid.Rows.Add(p.Product_Id, p.Product_Name, 1, price, "", price);
-            totalPrice += price;
-            lblTotal.Text = "Total: ₪" + totalPrice;
+
+            try
+            {
+                bl.Order.AddProductToOrder(order, p.Product_Id, 1);
+                RefreshCart();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void RefreshCart()
+        {
+            cartGrid.Rows.Clear();
+            foreach (var item in order.products)
+                cartGrid.Rows.Add(item.id, item.name, item.amount, item.basic_price, item.sales?.Count > 0 ? "Yes" : "No", item.final_price);
+
+            lblTotal.Text = $"Total: ₪{order.final_price}";
         }
 
         private void CloseOrder()
         {
-            if (cartGrid.Rows.Count == 0)
+            if (order.products.Count == 0)
             {
                 MessageBox.Show("The cart is empty!");
                 return;
@@ -112,19 +116,10 @@ namespace UI
 
             try
             {
-                foreach (DataGridViewRow row in cartGrid.Rows)
-                {
-                    int id = int.Parse(row.Cells["ColumnId"].Value.ToString());
-                    int quantity = int.Parse(row.Cells["Column1Quantity"].Value.ToString());
-
-                    Product product = bl.Product.Read(id);
-                    product.Product_Amount -= quantity;
-                    bl.Product.Update(product);
-                }
-
-                MessageBox.Show($"Order closed! Total: ₪{totalPrice}");
+                bl.Order.DoOrder(order);
+                MessageBox.Show($"Order closed! Total: ₪{order.final_price}");
+                order = new Order { club = order.club, products = new System.Collections.Generic.List<ProductInOrder>(), final_price = 0 };
                 cartGrid.Rows.Clear();
-                totalPrice = 0;
                 lblTotal.Text = "Total: ₪0";
                 LoadProducts();
             }
@@ -132,17 +127,6 @@ namespace UI
             {
                 MessageBox.Show("Error closing order: " + ex.Message);
             }
-        }
-
-        private void btnPay_Click(object sender, EventArgs e)
-        {
-            totalPrice = 0;
-            LoadProducts();
-        }
-
-        private void lblTotal_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

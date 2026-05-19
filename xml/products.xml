@@ -12,7 +12,7 @@
     <NameP>Choclate</NameP>
     <Category>c2</Category>
     <Price>20</Price>
-    <Amount>5</Amount>
+    <Amount>2</Amount>
   </Product>
   <Product>
     <Id>226</Id>
@@ -26,6 +26,6 @@
     <NameP>Bread</NameP>
     <Category>c2</Category>
     <Price>12</Price>
-    <Amount>19</Amount>
+    <Amount>18</Amount>
   </Product>
 </ArrayOfProduct>

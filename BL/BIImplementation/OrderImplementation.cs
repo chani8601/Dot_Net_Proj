@@ -24,7 +24,7 @@ namespace BIImplementation
                 if (product?.Amount < item.amount)
                     throw new Exception("אין מספיק במלאי");
                 var updatedProduct = product with { Amount = product.Amount - item.amount };
-                _dal.Product.Update(product);
+                _dal.Product.Update(updatedProduct);
 
             }
         }
@@ -41,6 +41,11 @@ namespace BIImplementation
                 if (IsExistProduct.amount + amountProduct > product.Amount)
                     throw new Exception("אין מספיק במלאי");
                 IsExistProduct.amount += amountProduct;
+                SearchSaleForProduct(IsExistProduct, order.club);
+                CalcTotalPriceForProduct(IsExistProduct);
+                order.final_price = 0;
+                foreach (var p in order.products)
+                    order.final_price += p.final_price;
             }
             else
             {
@@ -59,9 +64,11 @@ namespace BIImplementation
 
                     order.products.Add(newProductInOrder);
                     IsExistProduct = newProductInOrder;
-                    SearchSaleForProduct(IsExistProduct, true);
+                    SearchSaleForProduct(IsExistProduct, order.club);
                     CalcTotalPriceForProduct(IsExistProduct);
-                    CalcTotalPrice(order);
+                    order.final_price = 0;
+                    foreach (var p in order.products)
+                        order.final_price += p.final_price;
                 }
             }
             return IsExistProduct.sales;
