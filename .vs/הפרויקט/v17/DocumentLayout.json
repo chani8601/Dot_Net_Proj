@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\ui\\managmentsalemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\managmentsalemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|c:\\users\\1\\desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\dot_net_proj\\ui\\managmentproductmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\ui\\managmentproductmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\managmentproductmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|c:\\users\\1\\desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\dot_net_proj\\ui\\managmentproductmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\managmentproductmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|c:\\users\\1\\desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\dot_net_proj\\ui\\managmentsalemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\managmentsalemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|c:\\users\\1\\desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\dot_net_proj\\ui\\managmentproductmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|c:\\users\\1\\desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\dot_net_proj\\ui\\cashier_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\ui\\cashier_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{519EECDE-C409-4456-9098-102CAA30EABB}|UI\\UI.csproj|solutionrelative:ui\\cashier_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -273,7 +273,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagmentSaleMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentSaleMenu.cs",
+              "RelativeDocumentMoniker": "UI\\ManagmentSaleMenu.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentSaleMenu.cs [Design]",
+              "RelativeToolTip": "UI\\ManagmentSaleMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:31:49.251Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ManagmentProductMenu.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentProductMenu.cs",
+              "RelativeDocumentMoniker": "UI\\ManagmentProductMenu.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentProductMenu.cs",
+              "RelativeToolTip": "UI\\ManagmentProductMenu.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:41:04.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ManagmentProductMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentProductMenu.cs",
               "RelativeDocumentMoniker": "UI\\ManagmentProductMenu.cs",
@@ -298,31 +323,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManagmentSaleMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentSaleMenu.cs",
-              "RelativeDocumentMoniker": "UI\\ManagmentSaleMenu.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentSaleMenu.cs [Design]",
-              "RelativeToolTip": "UI\\ManagmentSaleMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:31:49.251Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManagmentProductMenu.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentProductMenu.cs",
-              "RelativeDocumentMoniker": "UI\\ManagmentProductMenu.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentProductMenu.cs",
-              "RelativeToolTip": "UI\\ManagmentProductMenu.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:41:04.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ManagmentCustomerMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentCustomerMenu.cs",
@@ -330,8 +330,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\ManagmentCustomerMenu.cs [Design]",
               "RelativeToolTip": "UI\\ManagmentCustomerMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:28:10.747Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-18T13:28:10.747Z"
             },
             {
               "$type": "Document",
@@ -342,8 +341,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\Cashier_menu.cs [Design]",
               "RelativeToolTip": "UI\\Cashier_menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T09:16:59.527Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-20T09:16:59.527Z"
             },
             {
               "$type": "Document",
@@ -367,8 +365,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD2\\c#.net\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05E2\u05D5\u05D3\u05DB\u05DF \u05DE\u05D4\u05D2\u05D9\u05D8\\Dot_Net_Proj\\UI\\CustomerForm.cs [Design]",
               "RelativeToolTip": "UI\\CustomerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T08:58:33.671Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-20T08:58:33.671Z"
             },
             {
               "$type": "Document",
@@ -427,8 +424,7 @@
               "RelativeToolTip": "UI\\Cashier_menu.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T08:36:39.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T08:36:39.144Z"
             },
             {
               "$type": "Document",
@@ -463,8 +459,7 @@
               "RelativeToolTip": "UI\\ManagmentSaleMenu.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAMwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:41:48.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T14:41:48.016Z"
             },
             {
               "$type": "Document",
@@ -512,8 +507,7 @@
               "RelativeToolTip": "UI\\ManagmentCustomerMenu.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:29:57.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T14:29:57.966Z"
             },
             {
               "$type": "Document",

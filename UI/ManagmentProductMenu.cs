@@ -18,6 +18,18 @@ namespace UI
             textBox_PcreateId.Visible = false;
             label_PCreateId.Visible = false;
 
+            comboBox_PShow_All_category.Items.Add("All");
+            foreach (DO.category cat in Enum.GetValues(typeof(DO.category)))
+                comboBox_PShow_All_category.Items.Add(cat);
+            comboBox_PShow_All_category.SelectedIndex = 0;
+            comboBox_PShow_All_category.SelectedIndexChanged += (s, e) =>
+            {
+                if (comboBox_PShow_All_category.SelectedItem?.ToString() == "All")
+                    dataGridView4.DataSource = bl.Product.ReadAll();
+                else
+                    dataGridView4.DataSource = bl.Product.ReadAll(p => p.Product_Category == (DO.category)comboBox_PShow_All_category.SelectedItem);
+            };
+
             LoadAllProducts(dataGridView1);
             LoadAllProducts(dataGridView2);
             LoadAllProducts(dataGridView3);
@@ -25,11 +37,7 @@ namespace UI
 
             button_AddProduct.Click += AddProduct_Click;
             button1.Click += UpdateProduct_Click;
-
-            // כפתור Delete - אין כפתור ב-Designer, מוסיפים כפתור בקוד
-            var btnDelete = new Button { Text = "Delete Product", Width = 160, Height = 35, Left = 21, Top = 150 };
-            btnDelete.Click += DeleteProduct_Click;
-            tabPage3.Controls.Add(btnDelete);
+            PDeleteBtn.Click += DeleteProduct_Click;
 
             tabControl1.SelectedIndexChanged += (s, e) =>
             {
@@ -115,6 +123,11 @@ namespace UI
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

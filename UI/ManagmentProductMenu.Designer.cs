@@ -58,6 +58,7 @@
             label2 = new Label();
             label1 = new Label();
             tabPage3 = new TabPage();
+            PDeleteBtn = new Button();
             dataGridView3 = new DataGridView();
             textBox3 = new TextBox();
             label8 = new Label();
@@ -65,6 +66,8 @@
             tabPage4 = new TabPage();
             dataGridView4 = new DataGridView();
             label9 = new Label();
+            comboBox_PShow_All_category = new ComboBox();
+            label11 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -134,7 +137,6 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(404, 290);
             dataGridView1.TabIndex = 11;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // numericUpDown_PCreatePrice
             // 
@@ -366,6 +368,7 @@
             // 
             // tabPage3
             // 
+            tabPage3.Controls.Add(PDeleteBtn);
             tabPage3.Controls.Add(dataGridView3);
             tabPage3.Controls.Add(textBox3);
             tabPage3.Controls.Add(label8);
@@ -378,6 +381,15 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Delete";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // PDeleteBtn
+            // 
+            PDeleteBtn.Location = new Point(94, 196);
+            PDeleteBtn.Name = "PDeleteBtn";
+            PDeleteBtn.Size = new Size(182, 29);
+            PDeleteBtn.TabIndex = 4;
+            PDeleteBtn.Text = "Delete Product";
+            PDeleteBtn.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
@@ -415,6 +427,8 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(label11);
+            tabPage4.Controls.Add(comboBox_PShow_All_category);
             tabPage4.Controls.Add(dataGridView4);
             tabPage4.Controls.Add(label9);
             tabPage4.Location = new Point(4, 29);
@@ -429,20 +443,38 @@
             // dataGridView4
             // 
             dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView4.Location = new Point(178, 102);
+            dataGridView4.Location = new Point(237, 102);
             dataGridView4.Name = "dataGridView4";
             dataGridView4.RowHeadersWidth = 51;
             dataGridView4.Size = new Size(441, 335);
             dataGridView4.TabIndex = 1;
+            dataGridView4.CellContentClick += dataGridView4_CellContentClick;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(298, 64);
+            label9.Location = new Point(351, 46);
             label9.Name = "label9";
             label9.Size = new Size(122, 20);
             label9.TabIndex = 0;
             label9.Text = "Show All Product";
+            // 
+            // comboBox_PShow_All_category
+            // 
+            comboBox_PShow_All_category.FormattingEnabled = true;
+            comboBox_PShow_All_category.Location = new Point(32, 100);
+            comboBox_PShow_All_category.Name = "comboBox_PShow_All_category";
+            comboBox_PShow_All_category.Size = new Size(151, 28);
+            comboBox_PShow_All_category.TabIndex = 2;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(32, 66);
+            label11.Name = "label11";
+            label11.Size = new Size(126, 20);
+            label11.TabIndex = 3;
+            label11.Text = "Filter by Category";
             // 
             // ManagmentProductMenu
             // 
@@ -512,5 +544,8 @@
         private DataGridView dataGridView4;
         private Label label9;
         private Label label10;
+        private Button PDeleteBtn;
+        private ComboBox comboBox_PShow_All_category;
+        private Label label11;
     }
 }
