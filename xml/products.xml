@@ -4,7 +4,7 @@
     <Id>224</Id>
     <NameP>Ice Coffee</NameP>
     <Category>c1</Category>
-    <Price>10</Price>
+    <Price>9</Price>
     <Amount>10</Amount>
   </Product>
   <Product>
@@ -12,7 +12,7 @@
     <NameP>Choclate</NameP>
     <Category>c2</Category>
     <Price>20</Price>
-    <Amount>2</Amount>
+    <Amount>0</Amount>
   </Product>
   <Product>
     <Id>226</Id>
@@ -26,6 +26,20 @@
     <NameP>Bread</NameP>
     <Category>c2</Category>
     <Price>12</Price>
-    <Amount>18</Amount>
+    <Amount>12</Amount>
+  </Product>
+  <Product>
+    <Id>229</Id>
+    <NameP>Candy</NameP>
+    <Category>c3</Category>
+    <Price>2</Price>
+    <Amount>10</Amount>
+  </Product>
+  <Product>
+    <Id>231</Id>
+    <NameP>Apple</NameP>
+    <Category>c3</Category>
+    <Price>3</Price>
+    <Amount>17</Amount>
   </Product>
 </ArrayOfProduct>

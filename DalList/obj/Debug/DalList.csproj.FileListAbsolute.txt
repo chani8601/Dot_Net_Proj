@@ -231,3 +231,20 @@ C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalLi
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalList\obj\Debug\refint\DalList.dll
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalList\obj\Debug\DalList.pdb
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalList\obj\Debug\ref\DalList.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalList.deps.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalList.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalList.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\refint\DalList.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\DalList.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalList\obj\Debug\ref\DalList.dll
+c:\bin\DalList.deps.json
+c:\bin\DalList.dll
+c:\bin\DalList.pdb

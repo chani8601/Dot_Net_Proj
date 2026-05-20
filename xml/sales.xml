@@ -18,4 +18,22 @@
     <StartSale>2026-05-13T13:01:35.3877833+03:00</StartSale>
     <EndSale>2026-05-28T13:01:35.3877863+03:00</EndSale>
   </Sale>
+  <Sale>
+    <Id>117</Id>
+    <IdP>229</IdP>
+    <MinAmount>5</MinAmount>
+    <AllPrice>8</AllPrice>
+    <IfEveryone>false</IfEveryone>
+    <StartSale>2026-05-20T13:14:36.2777115+03:00</StartSale>
+    <EndSale>2026-05-27T13:14:36.281</EndSale>
+  </Sale>
+  <Sale>
+    <Id>119</Id>
+    <IdP>231</IdP>
+    <MinAmount>3</MinAmount>
+    <AllPrice>7</AllPrice>
+    <IfEveryone>true</IfEveryone>
+    <StartSale>2026-05-20T14:01:59.8117238+03:00</StartSale>
+    <EndSale>2026-05-27T14:01:59.82</EndSale>
+  </Sale>
 </ArrayOfSale>

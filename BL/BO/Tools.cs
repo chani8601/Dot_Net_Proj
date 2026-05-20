@@ -27,7 +27,7 @@ namespace BO
         }
         public static DO.Customer ConvertBoCustomerToDoCustomer(this BO.Customer customer)
         {
-            return new DO.Customer(customer.Customer_Id, customer.Customer_Address, customer.Customer_Phone, customer.Customer_Name);
+            return new DO.Customer(customer.Customer_Id, customer.Customer_Name, customer.Customer_Address, customer.Customer_Phone);
         }
 
         public static BO.Customer ConvertDoCustomerToBoCustomer(this DO.Customer customer)

@@ -30,11 +30,9 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            ShowAllCustomerBtn = new Button();
-            panel1 = new Panel();
-            UploadCustomerBtn = new Button();
+            label2 = new Label();
+            dataGridView1 = new DataGridView();
             AddCustomerBtn = new Button();
-            DeleteCustomerBtn = new Button();
             PhoneTextBox = new TextBox();
             AddressTextBox = new TextBox();
             NameTextBox = new TextBox();
@@ -44,47 +42,55 @@
             NameText = new Label();
             IdText = new Label();
             tabPage2 = new TabPage();
-            UpdateProductBtn = new Button();
-            ShowAllProductBtn = new Button();
-            DeleteProductBtn = new Button();
-            AddProductBtn = new Button();
-            numericUpDownPPrice = new NumericUpDown();
-            numericUpDownPCategory = new NumericUpDown();
+            UpdateCustomer = new Label();
+            dataGridView2 = new DataGridView();
+            TextBoxCUpdatePhone = new TextBox();
+            TextBoxCUpdateAdress = new TextBox();
+            UpdateCustomerBtn = new Button();
             PNameTxt = new TextBox();
             PIdTxt = new TextBox();
-            PPriceTxt = new Label();
             PAmountTxt = new Label();
-            PCategoryText = new Label();
+            PCategoryNameText = new Label();
             PNameText = new Label();
             label1 = new Label();
-            tabPage3 = new TabPage();
+            DeleteCustomer = new TabPage();
+            label3 = new Label();
+            ChooseCustomrtLbl = new Label();
+            ChooseCustomrtTxt = new TextBox();
+            button1 = new Button();
+            dataGridView3 = new DataGridView();
             tabPage4 = new TabPage();
+            label4 = new Label();
+            dataGridView4 = new DataGridView();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownPPrice).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownPCategory).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            DeleteCustomer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
             // 
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(DeleteCustomer);
             tabControl1.Controls.Add(tabPage4);
-            tabControl1.Location = new Point(2, 2);
+            tabControl1.Location = new Point(2, 3);
+            tabControl1.Margin = new Padding(3, 4, 3, 4);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(798, 449);
+            tabControl1.Size = new Size(912, 599);
             tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(ShowAllCustomerBtn);
-            tabPage1.Controls.Add(panel1);
-            tabPage1.Controls.Add(UploadCustomerBtn);
+            tabPage1.Controls.Add(label2);
+            tabPage1.Controls.Add(dataGridView1);
             tabPage1.Controls.Add(AddCustomerBtn);
-            tabPage1.Controls.Add(DeleteCustomerBtn);
             tabPage1.Controls.Add(PhoneTextBox);
             tabPage1.Controls.Add(AddressTextBox);
             tabPage1.Controls.Add(NameTextBox);
@@ -93,298 +99,338 @@
             tabPage1.Controls.Add(AddressText);
             tabPage1.Controls.Add(NameText);
             tabPage1.Controls.Add(IdText);
-            tabPage1.Location = new Point(4, 24);
+            tabPage1.Location = new Point(4, 29);
+            tabPage1.Margin = new Padding(3, 4, 3, 4);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(790, 421);
+            tabPage1.Padding = new Padding(3, 4, 3, 4);
+            tabPage1.Size = new Size(904, 566);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Create";
             tabPage1.UseVisualStyleBackColor = true;
-            tabPage1.Click += tabPage1_Click;
             // 
-            // ShowAllCustomerBtn
+            // label2
             // 
-            ShowAllCustomerBtn.Location = new Point(451, 276);
-            ShowAllCustomerBtn.Name = "ShowAllCustomerBtn";
-            ShowAllCustomerBtn.Size = new Size(120, 23);
-            ShowAllCustomerBtn.TabIndex = 12;
-            ShowAllCustomerBtn.Text = "Show all Customer";
-            ShowAllCustomerBtn.UseVisualStyleBackColor = true;
-            //ShowAllCustomerBtn.Click += this.ShowAllCustomerBtn_Click;
+            label2.AutoSize = true;
+            label2.Location = new Point(316, 61);
+            label2.Name = "label2";
+            label2.Size = new Size(119, 20);
+            label2.TabIndex = 14;
+            label2.Text = "Create Customer";
             // 
-            // panel1
+            // dataGridView1
             // 
-            panel1.Location = new Point(266, 44);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(358, 209);
-            panel1.TabIndex = 11;
-            // 
-            // UploadCustomerBtn
-            // 
-            UploadCustomerBtn.Location = new Point(324, 276);
-            UploadCustomerBtn.Name = "UploadCustomerBtn";
-            UploadCustomerBtn.Size = new Size(121, 23);
-            UploadCustomerBtn.TabIndex = 10;
-            UploadCustomerBtn.Text = "Upload Customer";
-            UploadCustomerBtn.UseVisualStyleBackColor = true;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(374, 158);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(380, 251);
+            dataGridView1.TabIndex = 13;
             // 
             // AddCustomerBtn
             // 
-            AddCustomerBtn.Location = new Point(182, 276);
+            AddCustomerBtn.Location = new Point(115, 373);
             AddCustomerBtn.Name = "AddCustomerBtn";
-            AddCustomerBtn.Size = new Size(126, 23);
-            AddCustomerBtn.TabIndex = 9;
+            AddCustomerBtn.Size = new Size(171, 29);
+            AddCustomerBtn.TabIndex = 12;
             AddCustomerBtn.Text = "Add Customer";
             AddCustomerBtn.UseVisualStyleBackColor = true;
             // 
-            // DeleteCustomerBtn
-            // 
-            DeleteCustomerBtn.Location = new Point(47, 276);
-            DeleteCustomerBtn.Name = "DeleteCustomerBtn";
-            DeleteCustomerBtn.Size = new Size(116, 23);
-            DeleteCustomerBtn.TabIndex = 8;
-            DeleteCustomerBtn.Text = "Delete Customer";
-            DeleteCustomerBtn.UseVisualStyleBackColor = true;
-            // 
             // PhoneTextBox
             // 
-            PhoneTextBox.Location = new Point(105, 218);
+            PhoneTextBox.Location = new Point(187, 285);
+            PhoneTextBox.Margin = new Padding(3, 4, 3, 4);
             PhoneTextBox.Name = "PhoneTextBox";
-            PhoneTextBox.Size = new Size(100, 23);
+            PhoneTextBox.Size = new Size(114, 27);
             PhoneTextBox.TabIndex = 7;
             // 
             // AddressTextBox
             // 
-            AddressTextBox.Location = new Point(105, 184);
+            AddressTextBox.Location = new Point(187, 239);
+            AddressTextBox.Margin = new Padding(3, 4, 3, 4);
             AddressTextBox.Name = "AddressTextBox";
-            AddressTextBox.Size = new Size(100, 23);
+            AddressTextBox.Size = new Size(114, 27);
             AddressTextBox.TabIndex = 6;
             // 
             // NameTextBox
             // 
-            NameTextBox.Location = new Point(105, 154);
+            NameTextBox.Location = new Point(187, 204);
+            NameTextBox.Margin = new Padding(3, 4, 3, 4);
             NameTextBox.Name = "NameTextBox";
-            NameTextBox.Size = new Size(100, 23);
+            NameTextBox.Size = new Size(114, 27);
             NameTextBox.TabIndex = 5;
-            NameTextBox.TextChanged += NameTextBox_TextChanged;
             // 
             // jbh
             // 
-            jbh.Location = new Point(105, 125);
+            jbh.Location = new Point(187, 166);
+            jbh.Margin = new Padding(3, 4, 3, 4);
             jbh.Name = "jbh";
-            jbh.Size = new Size(100, 23);
+            jbh.Size = new Size(114, 27);
             jbh.TabIndex = 4;
             // 
             // PhoneText
             // 
             PhoneText.AutoSize = true;
-            PhoneText.Location = new Point(47, 221);
+            PhoneText.Location = new Point(106, 288);
             PhoneText.Name = "PhoneText";
-            PhoneText.Size = new Size(44, 15);
+            PhoneText.Size = new Size(53, 20);
             PhoneText.TabIndex = 3;
             PhoneText.Text = "Phone:";
             // 
             // AddressText
             // 
             AddressText.AutoSize = true;
-            AddressText.Location = new Point(47, 187);
+            AddressText.Location = new Point(106, 242);
             AddressText.Name = "AddressText";
-            AddressText.Size = new Size(52, 15);
+            AddressText.Size = new Size(65, 20);
             AddressText.TabIndex = 2;
             AddressText.Text = "Address:";
-            AddressText.Click += label3_Click;
             // 
             // NameText
             // 
             NameText.AutoSize = true;
-            NameText.Location = new Point(47, 157);
+            NameText.Location = new Point(106, 202);
             NameText.Name = "NameText";
-            NameText.Size = new Size(42, 15);
+            NameText.Size = new Size(52, 20);
             NameText.TabIndex = 1;
             NameText.Text = "Name:";
-            NameText.Click += label2_Click;
             // 
             // IdText
             // 
             IdText.AutoSize = true;
-            IdText.Location = new Point(47, 126);
+            IdText.Location = new Point(106, 161);
             IdText.Name = "IdText";
-            IdText.Size = new Size(20, 15);
+            IdText.Size = new Size(25, 20);
             IdText.TabIndex = 0;
             IdText.Text = "Id:";
-            IdText.Click += label1_Click;
+            IdText.Click += IdText_Click;
             // 
             // tabPage2
             // 
-            tabPage2.Controls.Add(UpdateProductBtn);
-            tabPage2.Controls.Add(ShowAllProductBtn);
-            tabPage2.Controls.Add(DeleteProductBtn);
-            tabPage2.Controls.Add(AddProductBtn);
-            tabPage2.Controls.Add(numericUpDownPPrice);
-            tabPage2.Controls.Add(numericUpDownPCategory);
+            tabPage2.Controls.Add(UpdateCustomer);
+            tabPage2.Controls.Add(dataGridView2);
+            tabPage2.Controls.Add(TextBoxCUpdatePhone);
+            tabPage2.Controls.Add(TextBoxCUpdateAdress);
+            tabPage2.Controls.Add(UpdateCustomerBtn);
             tabPage2.Controls.Add(PNameTxt);
             tabPage2.Controls.Add(PIdTxt);
-            tabPage2.Controls.Add(PPriceTxt);
             tabPage2.Controls.Add(PAmountTxt);
-            tabPage2.Controls.Add(PCategoryText);
+            tabPage2.Controls.Add(PCategoryNameText);
             tabPage2.Controls.Add(PNameText);
             tabPage2.Controls.Add(label1);
-            tabPage2.Location = new Point(4, 24);
+            tabPage2.Location = new Point(4, 29);
+            tabPage2.Margin = new Padding(3, 4, 3, 4);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(790, 421);
+            tabPage2.Padding = new Padding(3, 4, 3, 4);
+            tabPage2.Size = new Size(904, 566);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Update";
             tabPage2.UseVisualStyleBackColor = true;
-            tabPage2.Click += tabPage2_Click;
             // 
-            // UpdateProductBtn
+            // UpdateCustomer
             // 
-            UpdateProductBtn.Location = new Point(188, 326);
-            UpdateProductBtn.Name = "UpdateProductBtn";
-            UpdateProductBtn.Size = new Size(108, 23);
-            UpdateProductBtn.TabIndex = 12;
-            UpdateProductBtn.Text = "Update Product";
-            UpdateProductBtn.UseVisualStyleBackColor = true;
+            UpdateCustomer.AutoSize = true;
+            UpdateCustomer.Location = new Point(179, 51);
+            UpdateCustomer.Name = "UpdateCustomer";
+            UpdateCustomer.Size = new Size(125, 20);
+            UpdateCustomer.TabIndex = 16;
+            UpdateCustomer.Text = "Update Customer";
             // 
-            // ShowAllProductBtn
+            // dataGridView2
             // 
-            ShowAllProductBtn.Location = new Point(188, 297);
-            ShowAllProductBtn.Name = "ShowAllProductBtn";
-            ShowAllProductBtn.Size = new Size(108, 23);
-            ShowAllProductBtn.TabIndex = 11;
-            ShowAllProductBtn.Text = "Show all Product";
-            ShowAllProductBtn.UseVisualStyleBackColor = true;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(367, 135);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(393, 258);
+            dataGridView2.TabIndex = 15;
             // 
-            // DeleteProductBtn
+            // TextBoxCUpdatePhone
             // 
-            DeleteProductBtn.Location = new Point(66, 326);
-            DeleteProductBtn.Name = "DeleteProductBtn";
-            DeleteProductBtn.Size = new Size(109, 23);
-            DeleteProductBtn.TabIndex = 10;
-            DeleteProductBtn.Text = "Delete Product";
-            DeleteProductBtn.UseVisualStyleBackColor = true;
+            TextBoxCUpdatePhone.Location = new Point(164, 265);
+            TextBoxCUpdatePhone.Name = "TextBoxCUpdatePhone";
+            TextBoxCUpdatePhone.Size = new Size(125, 27);
+            TextBoxCUpdatePhone.TabIndex = 14;
             // 
-            // AddProductBtn
+            // TextBoxCUpdateAdress
             // 
-            AddProductBtn.Location = new Point(66, 297);
-            AddProductBtn.Name = "AddProductBtn";
-            AddProductBtn.Size = new Size(109, 23);
-            AddProductBtn.TabIndex = 9;
-            AddProductBtn.Text = "Add Product";
-            AddProductBtn.UseVisualStyleBackColor = true;
-            AddProductBtn.Click += button1_Click;
+            TextBoxCUpdateAdress.Location = new Point(163, 224);
+            TextBoxCUpdateAdress.Name = "TextBoxCUpdateAdress";
+            TextBoxCUpdateAdress.Size = new Size(125, 27);
+            TextBoxCUpdateAdress.TabIndex = 13;
             // 
-            // numericUpDownPPrice
+            // UpdateCustomerBtn
             // 
-            numericUpDownPPrice.Location = new Point(143, 243);
-            numericUpDownPPrice.Name = "numericUpDownPPrice";
-            numericUpDownPPrice.Size = new Size(120, 23);
-            numericUpDownPPrice.TabIndex = 8;
-            // 
-            // numericUpDownPCategory
-            // 
-            numericUpDownPCategory.Location = new Point(143, 214);
-            numericUpDownPCategory.Name = "numericUpDownPCategory";
-            numericUpDownPCategory.Size = new Size(120, 23);
-            numericUpDownPCategory.TabIndex = 7;
-            numericUpDownPCategory.ValueChanged += numericUpDownPCategory_ValueChanged;
+            UpdateCustomerBtn.Location = new Point(75, 406);
+            UpdateCustomerBtn.Margin = new Padding(3, 4, 3, 4);
+            UpdateCustomerBtn.Name = "UpdateCustomerBtn";
+            UpdateCustomerBtn.Size = new Size(202, 31);
+            UpdateCustomerBtn.TabIndex = 12;
+            UpdateCustomerBtn.Text = "Update Customer";
+            UpdateCustomerBtn.UseVisualStyleBackColor = true;
             // 
             // PNameTxt
             // 
-            PNameTxt.Location = new Point(143, 150);
+            PNameTxt.Location = new Point(163, 175);
+            PNameTxt.Margin = new Padding(3, 4, 3, 4);
             PNameTxt.Name = "PNameTxt";
-            PNameTxt.Size = new Size(100, 23);
+            PNameTxt.Size = new Size(114, 27);
             PNameTxt.TabIndex = 6;
             // 
             // PIdTxt
             // 
-            PIdTxt.Location = new Point(143, 115);
+            PIdTxt.Location = new Point(163, 135);
+            PIdTxt.Margin = new Padding(3, 4, 3, 4);
             PIdTxt.Name = "PIdTxt";
-            PIdTxt.Size = new Size(100, 23);
+            PIdTxt.Size = new Size(114, 27);
             PIdTxt.TabIndex = 5;
-            // 
-            // PPriceTxt
-            // 
-            PPriceTxt.AutoEllipsis = true;
-            PPriceTxt.AutoSize = true;
-            PPriceTxt.Location = new Point(72, 245);
-            PPriceTxt.Name = "PPriceTxt";
-            PPriceTxt.Size = new Size(36, 15);
-            PPriceTxt.TabIndex = 4;
-            PPriceTxt.Text = "Price:";
             // 
             // PAmountTxt
             // 
             PAmountTxt.AutoSize = true;
-            PAmountTxt.Location = new Point(66, 216);
+            PAmountTxt.Location = new Point(75, 267);
             PAmountTxt.Name = "PAmountTxt";
-            PAmountTxt.Size = new Size(54, 15);
+            PAmountTxt.Size = new Size(53, 20);
             PAmountTxt.TabIndex = 3;
-            PAmountTxt.Text = "Amount:";
+            PAmountTxt.Text = "Phone:";
             // 
-            // PCategoryText
+            // PCategoryNameText
             // 
-            PCategoryText.AutoSize = true;
-            PCategoryText.Location = new Point(66, 185);
-            PCategoryText.Name = "PCategoryText";
-            PCategoryText.Size = new Size(58, 15);
-            PCategoryText.TabIndex = 2;
-            PCategoryText.Text = "Category:";
+            PCategoryNameText.AutoSize = true;
+            PCategoryNameText.Location = new Point(75, 224);
+            PCategoryNameText.Name = "PCategoryNameText";
+            PCategoryNameText.Size = new Size(65, 20);
+            PCategoryNameText.TabIndex = 2;
+            PCategoryNameText.Text = "Address:";
             // 
             // PNameText
             // 
             PNameText.AutoSize = true;
-            PNameText.Location = new Point(66, 153);
+            PNameText.Location = new Point(77, 180);
             PNameText.Name = "PNameText";
-            PNameText.Size = new Size(42, 15);
+            PNameText.Size = new Size(52, 20);
             PNameText.TabIndex = 1;
             PNameText.Text = "Name:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(66, 117);
+            label1.Location = new Point(75, 138);
             label1.Name = "label1";
-            label1.Size = new Size(20, 15);
+            label1.Size = new Size(25, 20);
             label1.TabIndex = 0;
             label1.Text = "Id:";
-            label1.Click += label1_Click_1;
             // 
-            // tabPage3
+            // DeleteCustomer
             // 
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(790, 421);
-            tabPage3.TabIndex = 2;
-            tabPage3.Text = "Delete";
-            tabPage3.UseVisualStyleBackColor = true;
+            DeleteCustomer.Controls.Add(label3);
+            DeleteCustomer.Controls.Add(ChooseCustomrtLbl);
+            DeleteCustomer.Controls.Add(ChooseCustomrtTxt);
+            DeleteCustomer.Controls.Add(button1);
+            DeleteCustomer.Controls.Add(dataGridView3);
+            DeleteCustomer.Location = new Point(4, 29);
+            DeleteCustomer.Margin = new Padding(3, 4, 3, 4);
+            DeleteCustomer.Name = "DeleteCustomer";
+            DeleteCustomer.Padding = new Padding(3, 4, 3, 4);
+            DeleteCustomer.Size = new Size(904, 566);
+            DeleteCustomer.TabIndex = 2;
+            DeleteCustomer.Text = "Delete";
+            DeleteCustomer.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(223, 58);
+            label3.Name = "label3";
+            label3.Size = new Size(120, 20);
+            label3.TabIndex = 4;
+            label3.Text = "Delete Customer";
+            // 
+            // ChooseCustomrtLbl
+            // 
+            ChooseCustomrtLbl.AutoSize = true;
+            ChooseCustomrtLbl.Location = new Point(22, 219);
+            ChooseCustomrtLbl.Name = "ChooseCustomrtLbl";
+            ChooseCustomrtLbl.Size = new Size(158, 20);
+            ChooseCustomrtLbl.TabIndex = 3;
+            ChooseCustomrtLbl.Text = "Choose id of customrt:";
+            // 
+            // ChooseCustomrtTxt
+            // 
+            ChooseCustomrtTxt.Location = new Point(198, 212);
+            ChooseCustomrtTxt.Name = "ChooseCustomrtTxt";
+            ChooseCustomrtTxt.Size = new Size(125, 27);
+            ChooseCustomrtTxt.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(104, 289);
+            button1.Name = "button1";
+            button1.Size = new Size(162, 29);
+            button1.TabIndex = 1;
+            button1.Text = "Delete Customer";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Location = new Point(393, 137);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.RowHeadersWidth = 51;
+            dataGridView3.Size = new Size(344, 245);
+            dataGridView3.TabIndex = 0;
             // 
             // tabPage4
             // 
-            tabPage4.Location = new Point(4, 24);
+            tabPage4.Controls.Add(label4);
+            tabPage4.Controls.Add(dataGridView4);
+            tabPage4.Location = new Point(4, 29);
+            tabPage4.Margin = new Padding(3, 4, 3, 4);
             tabPage4.Name = "tabPage4";
-            tabPage4.Size = new Size(790, 421);
+            tabPage4.Size = new Size(904, 566);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Show All";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(184, 33);
+            label4.Name = "label4";
+            label4.Size = new Size(134, 20);
+            label4.TabIndex = 1;
+            label4.Text = "Show All Customer";
+            // 
+            // dataGridView4
+            // 
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView4.Location = new Point(141, 103);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.RowHeadersWidth = 51;
+            dataGridView4.Size = new Size(600, 330);
+            dataGridView4.TabIndex = 0;
+            // 
             // ManagmentCustomerMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(tabControl1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ManagmentCustomerMenu";
             Text = "ManagmentMenu";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownPPrice).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownPCategory).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            DeleteCustomer.ResumeLayout(false);
+            DeleteCustomer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
             ResumeLayout(false);
         }
 
@@ -393,7 +439,7 @@
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private TabPage tabPage3;
+        private TabPage DeleteCustomer;
         private Label IdText;
         private Label AddressText;
         private Label NameText;
@@ -402,24 +448,27 @@
         private TextBox NameTextBox;
         private TextBox jbh;
         private Label PhoneText;
-        private Button UploadCustomerBtn;
-        private Button AddCustomerBtn;
-        private Button DeleteCustomerBtn;
         private Label PAmountTxt;
-        private Label PCategoryText;
+        private Label PCategoryNameText;
         private Label PNameText;
         private Label label1;
-        private Label PPriceTxt;
-        private NumericUpDown numericUpDownPCategory;
         private TextBox PNameTxt;
         private TextBox PIdTxt;
-        private Panel panel1;
-        private Button UpdateProductBtn;
-        private Button ShowAllProductBtn;
-        private Button DeleteProductBtn;
-        private Button AddProductBtn;
-        private NumericUpDown numericUpDownPPrice;
-        private Button ShowAllCustomerBtn;
         private TabPage tabPage4;
+        private Button AddCustomerBtn;
+        private DataGridView dataGridView1;
+        private Button UpdateCustomerBtn;
+        private TextBox TextBoxCUpdatePhone;
+        private TextBox TextBoxCUpdateAdress;
+        private DataGridView dataGridView2;
+        private Label ChooseCustomrtLbl;
+        private TextBox ChooseCustomrtTxt;
+        private Button button1;
+        private DataGridView dataGridView3;
+        private DataGridView dataGridView4;
+        private Label label2;
+        private Label UpdateCustomer;
+        private Label label3;
+        private Label label4;
     }
 }

@@ -197,3 +197,18 @@ C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFa
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\user1\Desktop\כיתה יד תכנות\C#.Net\csharp-store-system\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalFacade.deps.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\bin\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\1\Desktop\לימודים2\c#.net\פרויקט מעודכן מהגיט\Dot_Net_Proj\DalFacade\obj\Debug\ref\DalFacade.dll
+c:\bin\DalFacade.deps.json
+c:\bin\DalFacade.dll
+c:\bin\DalFacade.pdb
