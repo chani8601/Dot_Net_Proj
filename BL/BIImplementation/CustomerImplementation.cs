@@ -22,11 +22,10 @@ namespace BIImplementation
             {
                 return _dal.Customer.Create(item.ConvertBoCustomerToDoCustomer());
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception("");
+                throw new Exception(ex.Message);
             }
-
         }
         public void Delete(int id)
         {
@@ -34,9 +33,9 @@ namespace BIImplementation
             {
                 _dal.Customer.Delete(id);
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception("");
+                throw new Exception(ex.Message);
             }
         }
 
@@ -52,15 +51,15 @@ namespace BIImplementation
                 return false;
             }
         }
-        public BO.Customer?Read(int id)
+        public BO.Customer? Read(int id)
         {
             try
             {
                 return _dal.Customer.Read(id).ConvertDoCustomerToBoCustomer();
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception();
+                throw new Exception(ex.Message);
             }
         }
 
@@ -78,9 +77,9 @@ namespace BIImplementation
                 else
                     return _dal.Customer.ReadAll(s => filter(s.ConvertDoCustomerToBoCustomer())).Select(s => s.ConvertDoCustomerToBoCustomer()).ToList();
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception("");
+                throw new Exception(ex.Message);
             }
         }
         public void Update(BO.Customer customer)
@@ -89,9 +88,9 @@ namespace BIImplementation
             {
                 _dal.Customer.Update(customer.ConvertBoCustomerToDoCustomer());
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception();  
+                throw new Exception(ex.Message);
             }
         }
 

@@ -47,10 +47,12 @@ namespace UI
             card.Margin = new Padding(15);
 
             Label lblName = new Label { Text = p.Product_Name, Font = new Font("Arial", 16, FontStyle.Bold), Top = 10, Left = 10, AutoSize = true };
-            Label lblPrice = new Label { Text = "₪" + p.Product_Price, Font = new Font("Arial", 14), Top = 50, Left = 10, AutoSize = true };
-            Label lblStock = new Label { Text = "Stock: " + p.Product_Amount, Font = new Font("Arial", 10), Top = 80, Left = 10, AutoSize = true };
+            Label lblId = new Label { Text = "ID: " + p.Product_Id, Font = new Font("Arial", 10), Top = 40, Left = 10, AutoSize = true };
+            Label lblPrice = new Label { Text = "₪" + p.Product_Price, Font = new Font("Arial", 14), Top = 60, Left = 10, AutoSize = true };
+            Label lblStock = new Label { Text = "Stock: " + p.Product_Amount, Font = new Font("Arial", 10), Top = 90, Left = 10, AutoSize = true };
 
             card.Controls.Add(lblName);
+            card.Controls.Add(lblId);
             card.Controls.Add(lblPrice);
             card.Controls.Add(lblStock);
 
@@ -69,7 +71,7 @@ namespace UI
                 card.Controls.Add(lblSale);
             }
 
-            Button btnAdd = new Button { Text = "Add To Cart", Width = 150, Height = 35, Top = 150, Left = 10 };
+            Button btnAdd = new Button { Text = "Add To Cart", Width = 150, Height = 35, Top = 165, Left = 10 };
             btnAdd.Click += (sender, e) => AddToCart(p);
             card.Controls.Add(btnAdd);
 
@@ -77,6 +79,26 @@ namespace UI
         }
 
         private void cartGrid_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
+
+        private void btnAddById_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(txtProductId.Text, out int productId))
+            {
+                MessageBox.Show("Please enter a valid ID.");
+                return;
+            }
+
+            try
+            {
+                var product = bl.Product.Read(productId);
+                AddToCart(product);
+                txtProductId.Clear();
+            }
+            catch
+            {
+                MessageBox.Show("Product not found.");
+            }
+        }
 
         private void AddToCart(Product p)
         {
@@ -127,6 +149,11 @@ namespace UI
             {
                 MessageBox.Show("Error closing order: " + ex.Message);
             }
+        }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

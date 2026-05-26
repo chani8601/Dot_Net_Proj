@@ -5,7 +5,7 @@
     <NameP>Ice Coffee</NameP>
     <Category>c1</Category>
     <Price>9</Price>
-    <Amount>10</Amount>
+    <Amount>6</Amount>
   </Product>
   <Product>
     <Id>225</Id>
@@ -26,7 +26,7 @@
     <NameP>Bread</NameP>
     <Category>c2</Category>
     <Price>12</Price>
-    <Amount>12</Amount>
+    <Amount>10</Amount>
   </Product>
   <Product>
     <Id>229</Id>
@@ -40,6 +40,6 @@
     <NameP>Apple</NameP>
     <Category>c3</Category>
     <Price>3</Price>
-    <Amount>17</Amount>
+    <Amount>14</Amount>
   </Product>
 </ArrayOfProduct>

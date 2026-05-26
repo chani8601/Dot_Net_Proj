@@ -12,4 +12,10 @@
     <Address>Shaarei Tshuva 6 Modiin Ilit</Address>
     <Phone>0504118601</Phone>
   </Customer>
+  <Customer>
+    <Id>3</Id>
+    <Name>C#.NET</Name>
+    <Address>Visual Studio</Address>
+    <Phone>2022</Phone>
+  </Customer>
 </ArrayOfCustomer>
