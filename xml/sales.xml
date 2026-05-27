@@ -1,39 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- לכולם - Breads -->
   <Sale>
-    <Id>114</Id>
-    <IdP>225</IdP>
-    <MinAmount>5</MinAmount>
+    <Id>201</Id>
+    <IdP>101</IdP>
+    <MinAmount>3</MinAmount>
+    <AllPrice>45</AllPrice>
+    <IfEveryone>true</IfEveryone>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
+  </Sale>
+
+  <Sale>
+    <Id>202</Id>
+    <IdP>104</IdP>
+    <MinAmount>2</MinAmount>
     <AllPrice>20</AllPrice>
     <IfEveryone>true</IfEveryone>
-    <StartSale>2026-05-13T13:01:35.3387542+03:00</StartSale>
-    <EndSale>2026-05-28T13:01:35.341932+03:00</EndSale>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
   </Sale>
+
+  <!-- מועדון בלבד - Pastries -->
   <Sale>
-    <Id>115</Id>
-    <IdP>224</IdP>
-    <MinAmount>2</MinAmount>
-    <AllPrice>10</AllPrice>
+    <Id>203</Id>
+    <IdP>106</IdP>
+    <MinAmount>4</MinAmount>
+    <AllPrice>40</AllPrice>
     <IfEveryone>false</IfEveryone>
-    <StartSale>2026-05-13T13:01:35.3877833+03:00</StartSale>
-    <EndSale>2026-05-28T13:01:35.3877863+03:00</EndSale>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
   </Sale>
+
   <Sale>
-    <Id>117</Id>
-    <IdP>229</IdP>
+    <Id>204</Id>
+    <IdP>107</IdP>
     <MinAmount>5</MinAmount>
-    <AllPrice>8</AllPrice>
+    <AllPrice>40</AllPrice>
     <IfEveryone>false</IfEveryone>
-    <StartSale>2026-05-20T13:14:36.2777115+03:00</StartSale>
-    <EndSale>2026-05-27T13:14:36.281</EndSale>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
   </Sale>
+
+  <!-- לכולם - Sweets -->
   <Sale>
-    <Id>119</Id>
-    <IdP>231</IdP>
+    <Id>205</Id>
+    <IdP>111</IdP>
     <MinAmount>3</MinAmount>
-    <AllPrice>7</AllPrice>
+    <AllPrice>35</AllPrice>
     <IfEveryone>true</IfEveryone>
-    <StartSale>2026-05-20T14:01:59.8117238+03:00</StartSale>
-    <EndSale>2026-05-27T14:01:59.82</EndSale>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
   </Sale>
+
+  <!-- מועדון בלבד - Sweets -->
+  <Sale>
+    <Id>206</Id>
+    <IdP>114</IdP>
+    <MinAmount>2</MinAmount>
+    <AllPrice>35</AllPrice>
+    <IfEveryone>false</IfEveryone>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
+  </Sale>
+
+  <!-- לכולם - Drinks -->
+  <Sale>
+    <Id>207</Id>
+    <IdP>117</IdP>
+    <MinAmount>2</MinAmount>
+    <AllPrice>20</AllPrice>
+    <IfEveryone>true</IfEveryone>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
+  </Sale>
+
+  <!-- מועדון בלבד - Drinks -->
+  <Sale>
+    <Id>208</Id>
+    <IdP>118</IdP>
+    <MinAmount>3</MinAmount>
+    <AllPrice>40</AllPrice>
+    <IfEveryone>false</IfEveryone>
+    <StartSale>2025-01-01T00:00:00</StartSale>
+    <EndSale>2026-12-31T00:00:00</EndSale>
+  </Sale>
+
 </ArrayOfSale>

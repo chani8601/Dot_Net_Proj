@@ -40,11 +40,26 @@ namespace DalTest
         // מוסיפים מוצרים
         private static void CreatProducts()
         {
-            //מברכי
-            //ids.Add(s_dal.Product.Create(new Product(0, "Goldstar Lager", category.c1, 3.5, 100)));
-
-            s_dal.Product.Create(new Product(111, "", category.c1, 10, 5));
-            s_dal.Product.Create(new Product(112, "", category.c2, 20, 8));
+            s_dal.Product.Create(new Product(101, "Sourdough Bread",      category.Breads,   18, 20));
+            s_dal.Product.Create(new Product(102, "Whole Wheat Bread",    category.Breads,   15, 30));
+            s_dal.Product.Create(new Product(103, "Rye Bread",            category.Breads,   17, 25));
+            s_dal.Product.Create(new Product(104, "Baguette",             category.Breads,   12, 40));
+            s_dal.Product.Create(new Product(105, "Pita Bread",           category.Breads,   8,  60));
+            s_dal.Product.Create(new Product(106, "Croissant",            category.Pastries, 12, 50));
+            s_dal.Product.Create(new Product(107, "Cheese Bourekas",      category.Pastries, 10, 45));
+            s_dal.Product.Create(new Product(108, "Spinach Bourekas",     category.Pastries, 10, 40));
+            s_dal.Product.Create(new Product(109, "Mushroom Quiche",      category.Pastries, 22, 20));
+            s_dal.Product.Create(new Product(110, "Pretzel",              category.Pastries, 9,  35));
+            s_dal.Product.Create(new Product(111, "Chocolate Muffin",     category.Sweets,   14, 35));
+            s_dal.Product.Create(new Product(112, "Cinnamon Roll",        category.Sweets,   16, 25));
+            s_dal.Product.Create(new Product(113, "Chocolate Croissant",  category.Sweets,   14, 30));
+            s_dal.Product.Create(new Product(114, "Cheesecake Slice",     category.Sweets,   22, 15));
+            s_dal.Product.Create(new Product(115, "Brownie",              category.Sweets,   12, 40));
+            s_dal.Product.Create(new Product(116, "Fresh Orange Juice",   category.Drinks,   20, 15));
+            s_dal.Product.Create(new Product(117, "Coffee",               category.Drinks,   12, 60));
+            s_dal.Product.Create(new Product(118, "Cappuccino",           category.Drinks,   16, 50));
+            s_dal.Product.Create(new Product(119, "Hot Chocolate",        category.Drinks,   14, 30));
+            s_dal.Product.Create(new Product(120, "Lemonade",             category.Drinks,   18, 25));
         }
 
 

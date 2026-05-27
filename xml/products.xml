@@ -1,45 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
-    <Id>224</Id>
-    <NameP>Ice Coffee</NameP>
-    <Category>c1</Category>
-    <Price>9</Price>
-    <Amount>6</Amount>
+    <Id>101</Id>
+    <NameP>Sourdough Bread</NameP>
+    <Category>Breads</Category>
+    <Price>18</Price>
+    <Amount>20</Amount>
   </Product>
   <Product>
-    <Id>225</Id>
-    <NameP>Choclate</NameP>
-    <Category>c2</Category>
-    <Price>20</Price>
-    <Amount>0</Amount>
+    <Id>102</Id>
+    <NameP>Whole Wheat Bread</NameP>
+    <Category>Breads</Category>
+    <Price>15</Price>
+    <Amount>30</Amount>
   </Product>
   <Product>
-    <Id>226</Id>
-    <NameP>Milk</NameP>
-    <Category>c1</Category>
+    <Id>103</Id>
+    <NameP>Rye Bread</NameP>
+    <Category>Breads</Category>
+    <Price>17</Price>
+    <Amount>25</Amount>
+  </Product>
+  <Product>
+    <Id>104</Id>
+    <NameP>Baguette</NameP>
+    <Category>Breads</Category>
+    <Price>12</Price>
+    <Amount>36</Amount>
+  </Product>
+  <Product>
+    <Id>105</Id>
+    <NameP>Pita Bread</NameP>
+    <Category>Breads</Category>
     <Price>8</Price>
+    <Amount>60</Amount>
+  </Product>
+  <Product>
+    <Id>106</Id>
+    <NameP>Croissant</NameP>
+    <Category>Pastries</Category>
+    <Price>12</Price>
+    <Amount>50</Amount>
+  </Product>
+  <Product>
+    <Id>107</Id>
+    <NameP>Cheese Bourekas</NameP>
+    <Category>Pastries</Category>
+    <Price>10</Price>
+    <Amount>45</Amount>
+  </Product>
+  <Product>
+    <Id>108</Id>
+    <NameP>Spinach Bourekas</NameP>
+    <Category>Pastries</Category>
+    <Price>10</Price>
+    <Amount>40</Amount>
+  </Product>
+  <Product>
+    <Id>109</Id>
+    <NameP>Mushroom Quiche</NameP>
+    <Category>Pastries</Category>
+    <Price>22</Price>
+    <Amount>20</Amount>
+  </Product>
+  <Product>
+    <Id>110</Id>
+    <NameP>Pretzel</NameP>
+    <Category>Pastries</Category>
+    <Price>9</Price>
+    <Amount>35</Amount>
+  </Product>
+  <Product>
+    <Id>111</Id>
+    <NameP>Chocolate Muffin</NameP>
+    <Category>Sweets</Category>
+    <Price>14</Price>
+    <Amount>35</Amount>
+  </Product>
+  <Product>
+    <Id>112</Id>
+    <NameP>Cinnamon Roll</NameP>
+    <Category>Sweets</Category>
+    <Price>16</Price>
+    <Amount>25</Amount>
+  </Product>
+  <Product>
+    <Id>113</Id>
+    <NameP>Chocolate Croissant</NameP>
+    <Category>Sweets</Category>
+    <Price>14</Price>
+    <Amount>30</Amount>
+  </Product>
+  <Product>
+    <Id>114</Id>
+    <NameP>Cheesecake Slice</NameP>
+    <Category>Sweets</Category>
+    <Price>22</Price>
     <Amount>15</Amount>
   </Product>
   <Product>
-    <Id>227</Id>
-    <NameP>Bread</NameP>
-    <Category>c2</Category>
+    <Id>115</Id>
+    <NameP>Brownie</NameP>
+    <Category>Sweets</Category>
     <Price>12</Price>
-    <Amount>10</Amount>
+    <Amount>40</Amount>
   </Product>
   <Product>
-    <Id>229</Id>
-    <NameP>Candy</NameP>
-    <Category>c3</Category>
-    <Price>2</Price>
-    <Amount>10</Amount>
+    <Id>116</Id>
+    <NameP>Fresh Orange Juice</NameP>
+    <Category>Drinks</Category>
+    <Price>20</Price>
+    <Amount>15</Amount>
   </Product>
   <Product>
-    <Id>231</Id>
-    <NameP>Apple</NameP>
-    <Category>c3</Category>
-    <Price>3</Price>
-    <Amount>14</Amount>
+    <Id>117</Id>
+    <NameP>Coffee</NameP>
+    <Category>Drinks</Category>
+    <Price>12</Price>
+    <Amount>60</Amount>
+  </Product>
+  <Product>
+    <Id>118</Id>
+    <NameP>Cappuccino</NameP>
+    <Category>Drinks</Category>
+    <Price>16</Price>
+    <Amount>50</Amount>
+  </Product>
+  <Product>
+    <Id>119</Id>
+    <NameP>Hot Chocolate</NameP>
+    <Category>Drinks</Category>
+    <Price>14</Price>
+    <Amount>30</Amount>
+  </Product>
+  <Product>
+    <Id>120</Id>
+    <NameP>Lemonade</NameP>
+    <Category>Drinks</Category>
+    <Price>18</Price>
+    <Amount>25</Amount>
   </Product>
 </ArrayOfProduct>

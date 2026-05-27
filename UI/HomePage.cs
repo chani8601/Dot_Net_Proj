@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace UI
 {
@@ -15,6 +10,16 @@ namespace UI
         public HomePage()
         {
             InitializeComponent();
+
+            string imagePath = Path.Combine(Application.StartupPath, "Images", "logo.png");
+            if (File.Exists(imagePath))
+            {
+                this.BackgroundImage = Image.FromFile(imagePath);
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+
+            button1.BringToFront();
+            button2.BringToFront();
         }
 
         private void button1_Click(object sender, EventArgs e)

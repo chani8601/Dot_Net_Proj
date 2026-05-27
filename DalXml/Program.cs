@@ -1,6 +1,5 @@
 ﻿using DalApi;
 using Dal;
-using DalTest;
 using System.Security.Cryptography.X509Certificates;
 using DO;
 using System.Runtime.Intrinsics.X86;
@@ -20,8 +19,10 @@ namespace DalTest
             try
             {
                 Console.WriteLine("Do you want to initialize data? (y/n)");
+                //if (Console.ReadLine()?.ToLower() == "y")
+                //    Initialization.Initialize();
                 if (Console.ReadLine()?.ToLower() == "y")
-                    Initialization.Initialize();
+                    Console.WriteLine("Initialization not available in DalXml");
                 MainMenu();
             }
             catch (Exception ex)
